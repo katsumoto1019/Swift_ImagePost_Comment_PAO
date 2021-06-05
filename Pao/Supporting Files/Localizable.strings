@@ -1,0 +1,501 @@
+/* 
+  Localizable.strings
+  Pao
+
+  Created by Rybolovleva Olga Viktorovna on 13.07.2020.
+  Copyright © 2020 Exelia. All rights reserved.
+*/
+
+// Old Strings
+"PaoAlertController.CoverPhotos.title" = "Change Cover Photos!";
+"PaoAlertController.CoverPhotos.message" = "You can now change the cover photo for each of your location boards! Head to your profile, select a board and click the three dots to start!";
+"PaoAlertController.CoverPhotos.Button.text" = "Get Started!";
+"DropDownView.Menu.CoverPhoto.title" = "Choose cover photo";
+"BoardCoverPhotosViewController.title" = "Choose Cover Photo";
+"CoverViewController.Alert.Error.text" = "Something went wrong, please try again later!";
+"EmojiList.HeartEyes.text" = "Stunning!";
+"EmojiList.Gem.text" = "Major hidden gem!";
+"EmojiList.DroolingFace.text" = "Omg need!";
+"EmojiList.RoundPushpin.text" = "I've been here too!";
+"EmojiList.Clap.text" = "Kudos!";
+
+// Common
+"Common.BackButton.text" = "Back";
+"Common.NextButton.text" = "Next";
+"Common.SaveButton.text" = "Save";
+"Common.Error.title" = "Oops!";
+"Common.joinPao" = "Join Pao";
+"Common.titleYourLocations" = "Your Locations";
+"Common.titleYourPeople" = "Your People";
+"Common.titleTheirPeople" = "Their People";
+"Common.titleTheWorld" = "The World";
+"Common.titleCities" = "Cities";
+"Common.titleCountries" = "Countries";
+"Common.titleTopSpots" = "Top Spots";
+"Common.ok" = "Ok";
+"Common.cancel" = "Cancel";
+"Common.yes" = "Yes";
+"Common.no" = "No";
+"Common.notNow" = "Not Now";
+"Common.delete" = "Delete";
+"Common.labelPost" = "Post";
+"Common.labelUploads" = "Uploads";
+"Common.labelSaves" = "Saves";
+"Common.titleLocations" = "Locations";
+"Common.search" = "Search";
+"Common.titlePeople" = "People";
+"Common.titleGems" = "Gems";
+"Common.titleNotifications" = "Notifications";
+"Common.done" = "Done";
+"Common.gotIt" = "Got it";
+"Common.letsDoIt" = "Let's do it!";
+
+// NetworkViewController
+"NetworkViewController.ForceUpdateAlert.title" = "New Pao Update!";
+"NetworkViewController.ForceUpdateAlert.message" = "Pao has some brand new features! To start using them, head to the App Store and update now!";
+"NetworkViewController.ForceUpdateAlert.buttonTitle" = "Let’s do it!";
+
+// TabBarController
+"TabBarController.MessagePrompt.message" = "You denied access to your photos. To upload a spot on Pao, please go to your phone settings and grant Pao access to your photos.";
+"TabBarController.NewFeatureAlert.title" = "New Feature Alert!";
+"TabBarController.NewFeatureAlert.subTitle" = "Want to share a gem with someone who’s not on Pao yet? Click the three dots on the top right of a post to send it via text, email, and more!";
+"TabBarController.NewFeatureAlert.buttonTitle" = "Got it!";
+"TabBarController.WelcomeAlert.title" = "Welcome to Pao!";
+"TabBarController.WelcomeAlert.subTitle" = "Start by browsing our featured hidden gems or head to search page to find gems near you!";
+"TabBarController.UploadError.checkInternetConnectioin" = "Oops! Something went wrong when uploading your spot. Please check your service or internet connection and try again.";
+"TabBarController.UploadError.postIsTooLarge" = "Oops! Your post is too large for Pao. Please make sure your photos and videos total less than 60MB and try again.";
+"TabBarController.UploadNotification.message" = "Post successful! Click to view.";
+"TabBarController.CoachMarkBodyView.findPeopleToAdd" = "Find people to add here.";
+"TabBarController.CoachMarkBodyView.shareYourSpot" = "Share your fave spots here.";
+"TabBarController.CoachMarkBodyView.swipeSpots" = "Swipe through cool spots here.";
+
+// AboutMeTableViewController
+"AboutMeTableViewController.meetLabel" = "Meet";
+"AboutMeTableViewController.whereYoureAt" = "Where you're at";
+"AboutMeTableViewController.whereTheyreAt" = "Where they're at";
+"AboutMeTableViewController.whatYoureInto" = "What you're into";
+"AboutMeTableViewController.whatTheyreInto" = "What they're into";
+
+// AccountViewController
+"AccountViewController.joinNowButton" = "Join Now";
+"AccountViewController.logInButton" = "Log in";
+"AccountViewController.descriptionLabel" = "Join a community that experiences and shares
+\nthe coolest gems around the world.";
+"AccountViewController.subTitleLabel" = "Find your next favorite hidden gem.";
+
+// RegisterViewController
+"RegisterViewController.fullName" = "Full Name";
+"RegisterViewController.email" = "Email";
+"RegisterViewController.username" = "Username";
+"RegisterViewController.errorFullName" = "Please enter your full name";
+"RegisterViewController.errorEmail" = "Please enter a valid email";
+"RegisterViewController.errorUsername" = "Please enter your valid username";
+"RegisterViewController.errorSpecialCharacters" = "Username cannot contain special characters";
+"RegisterViewController.errorEmailAlreadyInUse" = "This email is already in use";
+"RegisterViewController.errorUsernameAlreadyInUse" = "This username is already in use";
+// RegisterViewController
+"RegisterViewController.nextButton" = "Next";
+
+// PasswordViewController
+"PasswordViewController.errorPassword" = "Password must be at least 8 characters with one number and a capital letter";
+"PasswordViewController.password" = "Password";
+"PasswordViewController.confirmPassword" = "Confirm Password";
+"PasswordViewController.errorPasswordNotMatch" = "The passwords do not match";
+"PasswordViewController.agree" = "By joining, you agree to Pao's Privacy Policy";
+"PasswordViewController.privacyPolicy" = "Privacy Policy";
+"PasswordViewController.MessagePrompt.message" = "Oops! Something went wrong when creating your account. Please try again.";
+"PasswordViewController.goButton" = "Go time";
+
+// LoginViewController
+"LoginViewController.title" = "Login";
+"LoginViewController.noUserError" = "There is no user record corresponding to this identifier. The user may have been deleted.";
+"LoginViewController.messagePrompt" = "It looks like there is no user associated with that email. Please check that you entered the correct email and try again.";
+"LoginViewController.MessagePrompt.title" = "Oops!";
+"LoginViewController.emailPlaceholder" = "Email";
+"LoginViewController.passwordPlaceholder" = "Password";
+"LoginViewController.errorEmail" = "Please enter a valid email";
+"LoginViewController.errorCantBeEmpty" = "Can't be empty.";
+"LoginViewController.loginButton" = "Log in";
+"LoginViewController.forgotPasswordButton" = "Forgot Password?";
+
+// ForgotPasswordViewController
+"ForgotPasswordViewController.title" = "Forgot Password";
+"ForgotPasswordViewController.PaoAlert.title" = "Sent!";
+"ForgotPasswordViewController.PaoAlert.subTitle" = "An email with a password reset link has been sent to you.";
+"ForgotPasswordViewController.descriptionLabel" = "A temporary password will be sent to your email.";
+"ForgotPasswordViewController.submitButton" = "Submit";
+
+// OnBoardingViewController
+"OnBoardingViewController.titleJoinCommunity" = "Join a community of \ntravel-obsessed doers";
+"OnBoardingViewController.titleDiscoverHiddenGems" = "Discover hidden gems you \nwon't find anywhere else";
+"OnBoardingViewController.titleKeepTrack" = "Keep track of your \nfave hidden gems";
+"OnBoardingViewController.descriptionNoNamelessReviewers" = "No nameless reviewers";
+"OnBoardingViewController.descriptionNoNegativeReviews" = "No negative reviews or tourist traps";
+"OnBoardingViewController.descriptionNeverForget" = "Never forget where you've been";
+
+// OnboardingPageViewController
+"OnboardingPageViewController.swipe" = "Swipe";
+
+// PlayListPopUpViewController
+"PlayListPopUpViewController.title" = "Introducing\n“Pao Play Lists”";
+"PlayListPopUpViewController.circleLabel" = "OUTDOORS";
+"PlayListPopUpViewController.description" = "Think of it like a music playlist, but with new spots rather than songs. This is a fun way to discover the best hidden gems and Pao users!";
+"PlayListPopUpViewController.CheckItOutButton.title" = "Check it out";
+
+// EmptySpotsView
+"EmptySpotsView.title" = "This will be your feed!";
+"EmptySpotsView.subTitle" = "To start filling it up, head to the search page and add some people!";
+
+// SpotTableViewCell
+"SpotTableViewCell.MessagePrompt.title" = "Hold up!";
+"SpotTableViewCell.MessagePrompt.message" = "You can only pick three favorites per board. Make sure they are the very best!";
+
+// SpotCollectionViewCell
+"SpotCollectionViewCell.MessageButton.title" = "View %@ comments";
+"SpotCollectionViewCell.MessageButtonOne.title" = "View 1 comment";
+"SpotCollectionViewCell.MessageButtonEmpty.title" = "Make a comment...";
+"SpotCollectionViewCell.labelUploading" = "Uploading";
+"SpotCollectionViewCell.EmojiMeaningRevisitInstructionAlert.subTitle" = "If you ever want to revisit \nwhat each emoji means, \ncheck out the settings \npage on your profile!";
+"SpotCollectionViewCell.goButton" = "Go";
+
+// SpotsViewController
+"SpotsViewController.DeleteUploadingPostAlert.message" = "Are you sure you want to delete this post?";
+"SpotsViewController.AddViewersOption.reportPost" = "Report Post";
+"SpotsViewController.AddViewersOption.CategoryAlert.message" ="Choose a reason for reporting this post.";
+"SpotsViewController.AddViewersOption.itsSpam" = "It's spam";
+"SpotsViewController.AddViewersOption.spamPost" = "Spam post";
+"SpotsViewController.AddViewersOption.itsInappropriate" = "It's inappropriate";
+"SpotsViewController.AddViewersOption.inappropriatePost" = "Inappropriate post";
+"SpotsViewController.AddViewersOption.BlockUser.title" = "Block User";
+"SpotsViewController.AddViewersOption.BlockUser.message" = "User blocked. They will no longer be able to see you or your posts.";
+"SpotsViewController.AddUsersOption.editPost" = "Edit Post";
+"SpotsViewController.AddUsersOption.deletePost" = "Delete Post";
+"SpotsViewController.DeletePostAlert.message" = "Are you sure you want to delete this post?";
+"SpotsViewController.DeletePostAlert.errorMessage" = "Oops! Something went wrong while deleting your post. Please try again.";
+
+// SpotCollectionViewController
+"SpotCollectionViewController.ForceUpdateAlert.title" = "Pro Tip!";
+"SpotCollectionViewController.ForceUpdateAlert.subTitle" = "Try holding down any of \nthe emojis under a post to \nsee who reacted!";
+"SpotCollectionViewController.ForceUpdateAlert.buttonTitle" = "Okay!";
+
+// SpotUsersViewController
+"SpotUsersViewController.titleSaved" = "Saved";
+
+// ManualSpotsViewController
+"ManualSpotsViewController.title" = "";
+
+// PlayListCollectionViewController
+"PlayListCollectionViewController.EmptyView.text" = "Oh snap!\nNo one on Pao has been to that spot yet.\nBut you should totally be the first one to go.";
+"PlayListCollectionViewController.Section.titleFeaturedToday" = "Featured Today";
+"PlayListCollectionViewController.Section.titleBestOfPao" = "Best of Pao";
+"PlayListCollectionViewController.Section.subTitleHereForTodayOnly" = "Here for today only";
+"PlayListCollectionViewController.Section.subTitleNewSpotsUpdatedEveryFriday" = "New spots updated every Friday";
+"PlayListCollectionViewController.Header.text" = "Discover Hidden Gems";
+"PlayListCollectionViewController.title" = "Discover";
+
+// PlayListTableViewController
+"PlayListTableViewController.title" = "Discover";
+
+// PlayListDetailsViewController
+"PlayListDetailsViewController.PlayList.description" = "10 spots from around the world posted by Pao users";
+"PlayListDetailsViewController.CoachMarkBodyView.HintLabel.text" = "Tap anywhere on the post to see the person's tip about the spot.";
+"PlayListDetailsViewController.CoachMarkBodyView.title" = "Save this spot";
+"PlayListDetailsViewController.CoachMarkBodyView.description" = "If you want to save this spot \n for later, press the bookmark!";
+
+// IdkFeedViewController
+"IdkFeedViewController.PlayList.description" = "A never ending list of inspiration";
+"GlobalPlayListHeaderCollectionViewCell.title" = "Discover Hidden Gems";
+"GlobalPlayListHeaderCollectionViewCell.subTitle" = "New spots updated weekly";
+
+// LocationsSearchTableViewController
+"LocationsSearchTableViewController.currentLocation" = "Current Location";
+"LocationsSearchTableViewController.noResultText" = "No one on Pao has been here yet!\nBut you should definitely be the first one to go!";
+"LocationsSearchTableViewController.Section.titleTopPaoCities" = "Top Pao Cities";
+"LocationsSearchTableViewController.Section.titleResults" = "Results";
+"LocationsSearchTableViewController.Section.titleRelated" = "Related";
+"LocationsSearchTableViewController.PermissionAlert.title" = "Location permission";
+"LocationsSearchTableViewController.PermissionAlert.subTitle" = "Do you want to get your current location?";
+
+// PeopleSearchTableViewController
+"PeopleSearchTableViewController.noResultText" = "Oops!\nThere is no one Pao with that name or\nusername yet.";
+"PeopleSearchTableViewController.Header.title" = "Top Pao Users";
+
+// SpotsSearchTableViewController
+"SpotsSearchTableViewController.noResultText" = "Oh snap!\nNo one on Pao has been to that spot yet.\nBut you should totally be the first one to go.";
+"SpotsSearchTableViewController.title" = "Top Pao Gems";
+
+// PeopleSearchCollectionViewController
+"PeopleSearchCollectionViewController.noResultText" = "Oops!\nThere is no one Pao with that name or\nusername yet.";
+"PeopleSearchCollectionViewController.title" = "Featured Users";
+"PeopleSearchCollectionViewController.subTitle" = "Check out today's featured users on Pao!";
+
+// LocationsSearchCollectionViewController
+"LocationsSearchCollectionViewController.title" = "Featured Cities";
+"LocationsSearchCollectionViewController.subTitle" = "Explore new cities each week on Pao!";
+
+// SpotsSearchCollectionViewController
+"SpotsSearchCollectionViewController.noResultText" = "Oh snap!\nNo one on Pao has been to that spot yet.\nBut you should totally be the first one to go.";
+"SpotsSearchCollectionViewController.Header.title" = "Top Spots This Week";
+"SpotsSearchCollectionViewController.Header.subTitle" = "Based on quality of spot, tip, and photos.";
+
+// NotificationsViewController
+"NotificationsViewController.title" = "Notifications";
+"NotificationsViewController.PermissionAlert.title" = "Never miss out!";
+"NotificationsViewController.PermissionAlert.subTitle" = "Do you want to know when someone saves/comments on your post?";
+
+// YourLocationViewController
+"YourLocationViewController.labelWahtsHappening" = "What's happening in";
+
+// NotificationViewCell
+"NotificationViewCell.labelSavedYourGem" = "saved your gem";
+"NotificationViewCell.labelMentionedYouInComment" = "mentioned you in a comment";
+"NotificationViewCell.labelAddedYouToTheirPeople" = "added you to their people";
+"NotificationViewCell.labelCommentedOnYourGem" = "commented on your gem";
+"NotificationViewCell.labelVerifiedYourGem" = "verified your gem";
+"NotificationViewCell.labelAcceptedYourRequest" = "accepted your add request";
+
+// ChecklistItemTableViewCell
+"ChecklistItemTableViewCell.todoLabel" = "To do:";
+
+// FollowRequestTableViewCell
+"FollowRequestTableViewCell.string" = " wants to add you to their people";
+
+// EmojiNotificationViewCell
+"EmojiNotificationViewCell.reacted" = "reacted";
+
+// LocationHeaderView
+"LocationHeaderView.lblWhatsHappening" = "What's happening in";
+
+// ProfileEditTagsViewController
+"ProfileEditTagsViewController.title" = "What You're Into";
+
+// ProfileEditTagsViewController
+"ProfileEditTagsViewController.interestsLabel" = "Your Interests:";
+
+// AboutMeStatsTableViewCell
+"AboutMeStatsTableViewCell.middleTitleLabel" = "Cities";
+"AboutMeStatsTableViewCell.trailingTitleLabel" = "Countries";
+
+// AboutMeBioTableViewCell
+"AboutMeBioTableViewCell.BioTextView.placeholder" = "Here you can write any thing about yourself. Keep it simple or go all out!";
+
+// AboutMeLocationTableViewCell
+"AboutMeLocationTableViewCell.LocationText.title" = "Add";
+"AboutMeLocationTableViewCell.LocationText.value" = "(optional)";
+
+// AboutMeLocationTableViewCell
+"AboutMeLocationTableViewCell.hometownTitleLabel" = "Hometown";
+"AboutMeLocationTableViewCell.currentlyTitleLabel" = "Currently";
+"AboutMeLocationTableViewCell.nextStopTitleLabel" = "Next stop";
+
+// EditProfileAddTagsTableViewCell
+"EditProfileAddTagsTableViewCell.instructionsLabel" = "Add some tags to tell your people\nwhat kinds of things you like to do";
+
+// LogoutTableViewCell
+"HrZ-g2-5oA.normalTitle" = "Log out";
+
+// SettingsTableViewController
+"SettingsTableViewController.title" = "Settings";
+"SettingsTableViewController.optionAccount" = "Account";
+"SettingsTableViewController.optionPrivacy" = "Privacy";
+"SettingsTableViewController.optionDataDownload" = "Data Download";
+"SettingsTableViewController.optionNotifications" = "Notifications";
+"SettingsTableViewController.optionContact" = "Contact";
+"SettingsTableViewController.optionAbout" = "About";
+"SettingsTableViewController.optionEmojis" = "Emojis";
+"SettingsTableViewController.optionLogout" = "Logout";
+"SettingsTableViewController.PaoAlert.subTitle" = "Please confirm you want your data sent via email per GPDR standards";
+"SettingsTableViewController.PaoAlert.buttonText" = "Send email";
+"SettingsTableViewController.MessagePromptGDPR.message" = "Your GDPR data has been sent to your email.";
+"SettingsTableViewController.MessagePromptGDPR.title" = "Data Sent";
+"SettingsTableViewController.ErrorMessagePrompt.message" = "Oops! Something went wrong. Please try again.";
+
+// AboutTableViewController
+"AboutTableViewController.labelVersion" = "Version";
+"AboutTableViewController.labelTermsAndConditions" = "Terms and Conditions";
+"AboutTableViewController.labelPrivacyPolicy" = "Privacy Policy";
+"AboutTableViewController.title" = "About";
+
+// NotificationsSettingsTableViewController
+"NotificationsSettingsTableViewController.title" = "Notifications";
+"NotificationsSettingsTableViewController.labelText" = "You will get notified when someone comments, saves, or verifies your post. You will also be notified if a user adds you, or requests to add you to their people.";
+
+// PrivacySettingsTableViewController
+"PrivacySettingsTableViewController.title" = "Privacy";
+"PrivacySettingsTableViewController.labelText" = "When your account is private, only users you approve can access your uploads and saves, users will also not be able to discover your spots in the World feed.";
+
+// AccountTableViewController
+"AccountTableViewController.labelEnterPassword" = "Please enter your password";
+"AccountTableViewController.placeholder" = "Your password";
+"AccountTableViewController.MessagePrompt.message" = "Incorrect password or something went wrong.";
+"AccountTableViewController.deleteConfirmation" = "Are you sure you want to delete your account?";
+"AccountTableViewController.deleteAccountError" = "Oops! Something went wrong when deleting your account. Please try again.";
+
+// EmojisTableViewController
+"EmojisTableViewController.title" = "Emojis";
+
+// UserProfileViewController
+"UserProfileViewController.PaoAlert.title" = "Error";
+"UserProfileViewController.PaoAlert.subTitle" = "Profile not found!";
+"UserProfileViewController.ProfileAction.add" = "Add";
+"UserProfileViewController.ProfileAction.added" = "Added";
+
+// ProfileSubViewController
+"ProfileSubViewController.privateBoardMessage" = "This user is private, you can request to add them.";
+
+// ProfileEditViewController
+"ProfileEditViewController.title" = "Edit Profile";
+"ProfileEditViewController.editingError" = "Your username must be at least two letters.";
+"ProfileEditViewController.usernameTakenError" = "This username is already taken. Please try a different one!";
+"ProfileEditViewController.Header.basicInfo" = "Basic Info";
+"ProfileEditViewController.Header.bio" = "Bio";
+"ProfileEditViewController.Header.whereYoureAt" = "Where you're at";
+"ProfileEditViewController.Header.whatYoureInto" = "What you're into";
+
+// EmailContactService
+"EmailContactService.message" = "Please select the category of the topic you are contacting us about.";
+"EmailContactService.categoryAlertTitle" = "Topic category";
+"EmailContactService.ComposeEmail.message" = "Your device is not set up for the following";
+"EmailContactService.ComposeEmail.canSendMail" = "Sending mail";
+"EmailContactService.ComposeEmail.canSendText" = "Sending text only messages";
+"EmailContactService.ComposeEmail.canSendSubject" = "Including subjects in messages";
+"EmailContactService.ComposeEmail.deviceSetup" = "Device setup";
+
+// AccountsTableViewCell
+"AccountsTableViewCell.labelSubscription" = "Subscription";
+"AccountsTableViewCell.labelPremium" = "Premium";
+"AccountsTableViewCell.actionViewSubscriptionOptions" = "View subscription options";
+"AccountsTableViewCell.labelProfileType" = "Profile Type";
+"AccountsTableViewCell.labelPersonal" = "Personal";
+"AccountsTableViewCell.actionSwitchToBusinessProfile" = "Switch to Business profile";
+"AccountsTableViewCell.labelAccountInfo" = "Account Info";
+"AccountsTableViewCell.labelCreatedOn" = "Created on";
+"AccountsTableViewCell.actionDeleteAccount" = "Delete Account";
+
+// TopSpotsViewController
+"TopSpotsViewController.titleList" = "List";
+"TopSpotsViewController.titleMap" = "Map";
+"TopSpotsViewController.titleScroll" = "Scroll";
+"TopSpotsViewController.noResultText" = "There are no spots under this category yet!";
+
+// YourPeopleSpotsViewController
+"YourPeopleSpotsViewController.noResultText" = "None of your people have been here yet!\nBut you should definitely be the first one to go.";
+
+// LocationInteractionViewController
+"LocationInteractionViewController.titleTop" = "Top";
+"LocationInteractionViewController.titleRecent" = "Recent";
+"LocationInteractionViewController.labelLocating" = "Locating...";
+
+// UploadBoardCollectionViewController
+"UploadBoardCollectionViewController.emptyViewText" = "Nothing here yet!\nTo upload one of your favorite spots,\npress the plus button below.";
+"UploadBoardCollectionViewController.searchPlaceholder" = "Search Gems";
+
+// SaveBoardCollectionViewController
+"SaveBoardCollectionViewController.emptyViewText" = "Nothing here yet!\nTo save some spots, press the Pao\nicon on the menu bar below.";
+"SaveBoardCollectionViewController.searchPlaceholder" = "Search Saves";
+
+// CommentsDataSource
+"CommentsDataSource.DeleteComment.message" = "Are you sure you want to delete this comment?";
+"CommentsDataSource.reportActionTitle" = "Report";
+"CommentsDataSource.message" = "Choose a reason for reporting this comment.";
+"CommentsDataSource.spamComment" = "Spam comment";
+"CommentsDataSource.inappropriateComment" = "Inappropriate comment";
+
+// CommentLocal
+"CommentLocal.failedMessage" = "Couldn't post. Tap to retry";
+"CommentLocal.postingMessage" = "Posting...";
+
+// CommentsTableViewController
+"CommentsTableViewController.title" = "Comments";
+
+// FilterViewController
+"FilterViewController.filterLabel" = "Select Filters:";
+
+// GoFactsTableViewCell
+"GoFactsTableViewCell.address" = "Address";
+"GoFactsTableViewCell.hours" = "Hours";
+"GoFactsTableViewCell.permanentlyClosed" = "Permanently Closed";
+"GoFactsTableViewCell.temporarilyClosed" = "Temporarily Closed";
+"GoFactsTableViewCell.unknown" = "Unknown";
+"GoFactsTableViewCell.open" = "Open";
+"GoFactsTableViewCell.closed" = "Closed";
+"GoFactsTableViewCell.hoursToday" = "Hours today";
+"GoFactsTableViewCell.week" = "Week";
+
+// GoContactTableViewCell
+"GoContactTableViewCell.website" = "Website";
+"GoContactTableViewCell.directions" = "Directions";
+"GoContactTableViewCell.phone" = "Phone";
+
+// GoSubViewController
+"GoSubViewController.spotInfo" = "Spot Info";
+"GoSubViewController.photos" = "Photos";
+
+// GoSpotInfoTableViewController
+"GoSpotInfoTableViewController.facts" = "Facts";
+
+// ImagePickerViewController
+"ImagePickerViewController.message" = "Oops! Your video is too large to upload. Please make sure your videos are less than %@MB.";
+
+// NewSpotLocationViewController
+"NewSpotLocationViewController.searchForSpotsLocation" = "Now search for your gem's location.";
+"NewSpotLocationViewController.beSpecific" = "Be as specific as possible!";
+"NewSpotLocationViewController.title" = "Location";
+"NewSpotLocationViewController.addPlace" = "Add Place";
+"NewSpotLocationViewController.locationIsTooGeneral" = "This location is too general for Pao. Please put in the exact spot name or address so anyone could get there.";
+
+// NewSpotDescriptionViewController
+"NewSpotDescriptionViewController.title" = "Tip";
+"NewSpotDescriptionViewController.headingLabel" = "What would you tell your friends about this gem?";
+
+// NewSpotCategorySubcategoryViewController
+"NewSpotCategorySubcategoryViewController.title" = "Category";
+"NewSpotCategorySubcategoryViewController.headingLabel" = "What type of gem is this?";
+
+// PreviewCarouselViewController
+"PreviewCarouselViewController.selectCoverPhoto" = "First, select your cover photo...";
+"PreviewCarouselViewController.chooseUpto10" = "then choose up to 10 photos/videos of your gem!";
+
+// NewSpotPreviewViewController
+"NewSpotPreviewViewController.title" = "Preview";
+
+// EditSpotLocationViewController
+"EditSpotLocationViewController.title" = "Edit Location";
+
+// EditSpotDescriptionViewController
+"EditSpotDescriptionViewController.title" = "Edit Tip";
+
+// UserPermissionsAlertViewController
+"UserPermissionsAlertViewController.PersonalDataLabel.text" = "I understand and agree that my personal data may be transferred to locations outside my country of residence and such locations may not guarantee the same level of protection for personal data as my country.";
+"UserPermissionsAlertViewController.NewsletterLabel.text" = "I agree to receive newsletters, offers, promotions and other marketing materials from Pao.";
+
+// PickerImageView
+"PickerImageView.deniedAccessToPhotos" = "You denied access to your photos. To upload a spot on Pao, please go to your phone settings and grant Pao access to your photos.";
+
+// Date
+"Date.ago" = "ago";
+"Date.secs" = "secs";
+"Date.secsShort" = "s";
+"Date.mins" = "mins";
+"Date.minsShort" = "m";
+"Date.hours" = "hours";
+"Date.hoursShort" = "h";
+"Date.days" = "days";
+"Date.daysShort" = "d";
+"Date.months" = "months";
+"Date.monthsShort" = "mo";
+"Date.years" = "years";
+"Date.yearsShort" = "y";
+
+// UIViewController
+"UIViewController.Alert.title" = "Alert";
+
+// LocationService
+"LocationService.youNeedToEnableLocation" = "You need to enable location from the settings.";
+"LocationService.openSettings" = "Open Settings";
+
+// ReachabilityService
+"ReachabilityService.youAreOffline" = "You are offline";
+"ReachabilityService.PaoAlert.title" = "Uh oh!";
+"ReachabilityService.PaoAlert.subTitle" = "Pao is unable to connect.\n Try checking your internet or\n service connection and try again.";
+

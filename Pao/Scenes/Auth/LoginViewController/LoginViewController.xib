@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="Pao_DEV" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTextField" destination="aCg-Rw-5Xa" id="l83-Ps-xeX"/>
+                <outlet property="forgotPasswordButton" destination="4eK-4n-cvO" id="JBn-m8-xYQ"/>
+                <outlet property="loginButton" destination="0f1-LO-OZr" id="6iS-se-6LL"/>
+                <outlet property="passwordTextField" destination="VaP-gF-R9n" id="QQp-7P-WAQ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="N5m-XY-arL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="G3L-nr-B7M">
+                    <rect key="frame" x="47" y="156.5" width="281" height="121"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aCg-Rw-5Xa" customClass="IsaoTextField" customModule="Pao_DEV" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="281" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="DwY-Rb-g3I"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" textContentType="email"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VaP-gF-R9n" customClass="IsaoTextField" customModule="Pao_DEV" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="61" width="281" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="kNr-ej-ibt"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="320" id="DNb-gC-cqf"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="cvH-Vb-5PE"/>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0f1-LO-OZr" customClass="GradientButton" customModule="Pao_DEV" customModuleProvider="target">
+                    <rect key="frame" x="157.5" y="295" width="60" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Zrb-Gc-7dk"/>
+                        <constraint firstAttribute="height" constant="30" id="n4p-MV-Hxm"/>
+                    </constraints>
+                    <state key="normal" title="Log in"/>
+                    <connections>
+                        <action selector="login" destination="-1" eventType="touchUpInside" id="IZc-Mf-T6k"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eK-4n-cvO" customClass="RoundCornerButton" customModule="Pao_DEV" customModuleProvider="target">
+                    <rect key="frame" x="140.5" y="332" width="94" height="26"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <state key="normal" title="Forgot Password?"/>
+                    <connections>
+                        <action selector="showForgotPasswordViewController:" destination="-1" eventType="touchUpInside" id="cez-vx-iSG"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4eK-4n-cvO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9Jc-VF-Y3t"/>
+                <constraint firstItem="0f1-LO-OZr" firstAttribute="top" secondItem="G3L-nr-B7M" secondAttribute="bottom" constant="17.5" id="Fao-il-bTx"/>
+                <constraint firstItem="G3L-nr-B7M" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.65:1" priority="750" id="TZg-Pd-fja"/>
+                <constraint firstItem="0f1-LO-OZr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Tk5-CC-qTi"/>
+                <constraint firstItem="4eK-4n-cvO" firstAttribute="top" secondItem="0f1-LO-OZr" secondAttribute="bottom" constant="7" id="cbA-z7-J6S"/>
+                <constraint firstItem="G3L-nr-B7M" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uoM-LQ-EU8"/>
+                <constraint firstItem="G3L-nr-B7M" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.75:1" priority="750" id="yU0-V3-YUP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="32.799999999999997" y="52.623688155922046"/>
+        </view>
+    </objects>
+</document>

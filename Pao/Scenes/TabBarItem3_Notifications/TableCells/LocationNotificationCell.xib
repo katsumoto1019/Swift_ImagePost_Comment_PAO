@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LocationNotificationCell" customModule="Pao_PROD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location12" translatesAutoresizingMaskIntoConstraints="NO" id="Jv2-NH-vhR">
+                        <rect key="frame" x="12" y="16" width="65" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Jv2-NH-vhR" secondAttribute="height" multiplier="1:1" id="g3E-Ep-vVv"/>
+                            <constraint firstAttribute="height" constant="65" id="vHz-Te-rHu"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="adN-HY-xUA">
+                        <rect key="frame" x="89" y="16" width="158" height="64"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sI-3M-dsE">
+                                <rect key="frame" x="0.0" y="0.0" width="158" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2D-mQ-mKC">
+                                <rect key="frame" x="0.0" y="23" width="158" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2lf-5N-lI9">
+                                <rect key="frame" x="0.0" y="43.5" width="158" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDw-n0-0vF" customClass="GradientButton" customModule="Pao_PROD" customModuleProvider="target">
+                        <rect key="frame" x="259" y="32.5" width="49" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="49" id="Sb5-X1-JtB"/>
+                            <constraint firstAttribute="height" constant="32" id="t1m-aP-OLX"/>
+                        </constraints>
+                        <state key="normal" title="Go"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="topGradientColor">
+                                <color key="value" red="0.0" green="1" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="bottomGradientColor">
+                                <color key="value" red="0.0039215686269999999" green="0.6588235294" blue="0.51372549020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="buttonGo_Tapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xcz-X9-Gkj"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="adN-HY-xUA" firstAttribute="leading" secondItem="Jv2-NH-vhR" secondAttribute="trailing" constant="12" id="057-Fr-9qY"/>
+                    <constraint firstAttribute="bottom" secondItem="adN-HY-xUA" secondAttribute="bottom" constant="16" id="ETv-M2-O9i"/>
+                    <constraint firstItem="adN-HY-xUA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="EXE-0T-3hu"/>
+                    <constraint firstItem="wDw-n0-0vF" firstAttribute="leading" secondItem="adN-HY-xUA" secondAttribute="trailing" constant="12" id="Fo0-8Q-QLq"/>
+                    <constraint firstItem="wDw-n0-0vF" firstAttribute="centerY" secondItem="Jv2-NH-vhR" secondAttribute="centerY" id="NXw-ki-lRa"/>
+                    <constraint firstItem="Jv2-NH-vhR" firstAttribute="width" secondItem="Jv2-NH-vhR" secondAttribute="height" multiplier="1:1" id="XoN-xx-Egy"/>
+                    <constraint firstAttribute="trailing" secondItem="wDw-n0-0vF" secondAttribute="trailing" constant="12" id="gnU-P6-nel"/>
+                    <constraint firstItem="Jv2-NH-vhR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="ipt-lz-Ct1"/>
+                    <constraint firstItem="Jv2-NH-vhR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="qGv-F1-IGZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="GoButton" destination="wDw-n0-0vF" id="Vu8-I9-Q1U"/>
+                <outlet property="descriptionLabel" destination="y2D-mQ-mKC" id="zC5-nH-fmb"/>
+                <outlet property="postImage" destination="Jv2-NH-vhR" id="266-NS-Lve"/>
+                <outlet property="timeLabel" destination="2lf-5N-lI9" id="eMT-G4-POe"/>
+                <outlet property="titleLabel" destination="2sI-3M-dsE" id="3rQ-As-b5O"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="48"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="location12" width="100" height="100"/>
+    </resources>
+</document>

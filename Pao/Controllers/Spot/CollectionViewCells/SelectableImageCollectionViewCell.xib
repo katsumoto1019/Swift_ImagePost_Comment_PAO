@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SelectableImageCollectionViewCell" customModule="Pao" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="193" height="147"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="193" height="147"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BN2-uw-dxo">
+                        <rect key="frame" x="0.0" y="0.0" width="193" height="147"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kXb-hi-Opk" customClass="GradientView" customModule="Pao" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="123" width="193" height="24"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7i-X2-uaY" userLabel="Time Label">
+                                <rect key="frame" x="143" y="2.5" width="46" height="20.5"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="4c7-gv-7zw"/>
+                            <constraint firstAttribute="bottom" secondItem="s7i-X2-uaY" secondAttribute="bottom" constant="1" id="n9P-IJ-cMd"/>
+                            <constraint firstAttribute="trailing" secondItem="s7i-X2-uaY" secondAttribute="trailing" constant="4" id="rOb-9V-RR0"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fK2-8f-f04">
+                        <rect key="frame" x="173" y="0.0" width="20" height="21"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="aMH-91-Bhk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="BN2-uw-dxo" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="B19-34-Xb1"/>
+                <constraint firstAttribute="trailing" secondItem="fK2-8f-f04" secondAttribute="trailing" id="KwU-uI-SVr"/>
+                <constraint firstItem="fK2-8f-f04" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ViU-1S-jba"/>
+                <constraint firstItem="kXb-hi-Opk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cFb-Xy-rm5"/>
+                <constraint firstAttribute="trailing" secondItem="kXb-hi-Opk" secondAttribute="trailing" id="edO-Ib-uM1"/>
+                <constraint firstAttribute="trailing" secondItem="BN2-uw-dxo" secondAttribute="trailing" id="fcN-mc-Rkb"/>
+                <constraint firstItem="BN2-uw-dxo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="iPJ-xn-PaD"/>
+                <constraint firstAttribute="bottom" secondItem="BN2-uw-dxo" secondAttribute="bottom" id="jMZ-H3-TA3"/>
+                <constraint firstAttribute="bottom" secondItem="kXb-hi-Opk" secondAttribute="bottom" id="z7U-Iz-C34"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="193" height="147"/>
+            <connections>
+                <outlet property="counterLabel" destination="fK2-8f-f04" id="evw-73-Noc"/>
+                <outlet property="gradientView" destination="kXb-hi-Opk" id="f8r-Yv-QGy"/>
+                <outlet property="thumbnailImageView" destination="BN2-uw-dxo" id="6OJ-83-DOe"/>
+                <outlet property="timeLabel" destination="s7i-X2-uaY" id="rG4-E4-Kop"/>
+            </connections>
+            <point key="canvasLocation" x="154.5" y="102.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

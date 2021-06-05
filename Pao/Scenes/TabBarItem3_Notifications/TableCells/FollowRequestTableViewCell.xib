@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="89" id="KGk-i7-Jjw" customClass="FollowRequestTableViewCell" customModule="Pao_DEV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="88.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ris-iq-eXz" customClass="ProfileImageView" customModule="Pao_DEV" customModuleProvider="target">
+                        <rect key="frame" x="16" y="24.5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Ove-gO-6HO"/>
+                            <constraint firstAttribute="width" constant="40" id="Wgh-LU-Zvr"/>
+                            <constraint firstAttribute="width" secondItem="Ris-iq-eXz" secondAttribute="height" id="riU-pj-JkD"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8Af-27-WeU">
+                        <rect key="frame" x="64" y="24" width="128" height="41"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzP-sr-rmb">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyH-R6-Xjl">
+                                <rect key="frame" x="0.0" y="20.5" width="128" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afX-hi-Url" customClass="RoundCornerButton" customModule="Pao_DEV" customModuleProvider="target">
+                        <rect key="frame" x="200" y="19.5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="ARl-8B-rMJ"/>
+                            <constraint firstAttribute="width" constant="50" id="WUF-5C-VVu"/>
+                        </constraints>
+                        <color key="tintColor" red="0.0" green="0.99215686274509807" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                        <state key="normal" image="approveRequest"/>
+                        <connections>
+                            <action selector="action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Bf2-MJ-QnP"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWb-qx-vQF" customClass="RoundCornerButton" customModule="Pao_DEV" customModuleProvider="target">
+                        <rect key="frame" x="260" y="24.5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="ozy-v5-OEs"/>
+                            <constraint firstAttribute="height" constant="40" id="xSb-Fv-pNE"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                        <state key="normal" image="deleteRequest"/>
+                        <connections>
+                            <action selector="rejectRequest:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="9qX-CQ-DV0"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gWb-qx-vQF" firstAttribute="leading" secondItem="afX-hi-Url" secondAttribute="trailing" constant="10" id="Fos-o4-RP7"/>
+                    <constraint firstItem="Ris-iq-eXz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Grk-6H-ooO"/>
+                    <constraint firstItem="afX-hi-Url" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="JCy-70-H8K"/>
+                    <constraint firstItem="8Af-27-WeU" firstAttribute="leading" secondItem="Ris-iq-eXz" secondAttribute="trailing" constant="8" id="P64-ua-FGE"/>
+                    <constraint firstAttribute="trailing" secondItem="gWb-qx-vQF" secondAttribute="trailing" constant="20" id="f8L-fo-Dh4"/>
+                    <constraint firstItem="gWb-qx-vQF" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="fZl-oA-XOJ"/>
+                    <constraint firstItem="afX-hi-Url" firstAttribute="leading" secondItem="8Af-27-WeU" secondAttribute="trailing" constant="8" id="nbH-Ka-V80"/>
+                    <constraint firstItem="Ris-iq-eXz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sIW-bP-blh"/>
+                    <constraint firstItem="8Af-27-WeU" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="yDj-rG-zZx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="actionButton" destination="afX-hi-Url" id="xMv-Zn-zeS"/>
+                <outlet property="profileImageView" destination="Ris-iq-eXz" id="dFI-HQ-WJQ"/>
+                <outlet property="rejectButton" destination="gWb-qx-vQF" id="Et8-wo-CAu"/>
+                <outlet property="subTitleLabel" destination="dyH-R6-Xjl" id="RdL-4a-MJI"/>
+                <outlet property="titleLabel" destination="dzP-sr-rmb" id="Ie3-bd-6vQ"/>
+            </connections>
+            <point key="canvasLocation" x="142.40000000000001" y="214.54272863568218"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="approveRequest" width="30" height="30"/>
+        <image name="deleteRequest" width="30" height="30"/>
+    </resources>
+</document>

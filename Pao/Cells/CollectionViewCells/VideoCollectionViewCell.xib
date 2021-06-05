@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VideoCollectionViewCell" customModule="Pao" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="301" height="70"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cQw-Zq-Iwc">
+                        <rect key="frame" x="0.0" y="0.0" width="301" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fo3-gK-i62">
+                        <rect key="frame" x="0.0" y="0.0" width="301" height="70"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="55b-Ux-fee">
+                                <rect key="frame" x="126" y="11" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="55b-Ux-fee" secondAttribute="height" id="aGj-tu-G9U"/>
+                                    <constraint firstAttribute="width" constant="48" id="gkc-xp-2sW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="55b-Ux-fee" firstAttribute="centerY" secondItem="Fo3-gK-i62" secondAttribute="centerY" id="QrH-fW-Hb8"/>
+                            <constraint firstItem="55b-Ux-fee" firstAttribute="centerX" secondItem="Fo3-gK-i62" secondAttribute="centerX" id="pEg-ej-1dc"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mMv-0n-ixd">
+                        <rect key="frame" x="0.0" y="0.0" width="301" height="70"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GzB-Ny-jGy">
+                                <rect key="frame" x="0.0" y="68" width="301" height="2"/>
+                            </progressView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="HUe-QB-oPI">
+                                <rect key="frame" x="140" y="25" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HUe-QB-oPI" firstAttribute="centerX" secondItem="mMv-0n-ixd" secondAttribute="centerX" id="3GY-mp-JuV"/>
+                            <constraint firstItem="GzB-Ny-jGy" firstAttribute="leading" secondItem="mMv-0n-ixd" secondAttribute="leading" id="CEo-sI-d1C"/>
+                            <constraint firstItem="HUe-QB-oPI" firstAttribute="centerY" secondItem="mMv-0n-ixd" secondAttribute="centerY" id="HmB-6i-TdS"/>
+                            <constraint firstAttribute="trailing" secondItem="GzB-Ny-jGy" secondAttribute="trailing" id="jYb-Ju-c8P"/>
+                            <constraint firstAttribute="bottom" secondItem="GzB-Ny-jGy" secondAttribute="bottom" id="kmt-aI-w2X"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mMv-0n-ixd" secondAttribute="bottom" id="Bdn-ha-EZT"/>
+                <constraint firstItem="cQw-Zq-Iwc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="RAs-ji-XRH"/>
+                <constraint firstItem="mMv-0n-ixd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WEN-mq-grV"/>
+                <constraint firstAttribute="trailing" secondItem="mMv-0n-ixd" secondAttribute="trailing" id="chy-LU-OuL"/>
+                <constraint firstItem="Fo3-gK-i62" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fC7-Yg-GDv"/>
+                <constraint firstItem="Fo3-gK-i62" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="g0y-Dd-sdv"/>
+                <constraint firstAttribute="bottom" secondItem="Fo3-gK-i62" secondAttribute="bottom" id="gXB-Lx-RHP"/>
+                <constraint firstAttribute="bottom" secondItem="cQw-Zq-Iwc" secondAttribute="bottom" id="gZY-B2-aDt"/>
+                <constraint firstAttribute="trailing" secondItem="Fo3-gK-i62" secondAttribute="trailing" id="j8v-3S-voj"/>
+                <constraint firstAttribute="trailing" secondItem="cQw-Zq-Iwc" secondAttribute="trailing" id="jFa-Sw-Ofw"/>
+                <constraint firstItem="mMv-0n-ixd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="roj-4f-Skt"/>
+                <constraint firstItem="cQw-Zq-Iwc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ub6-DL-p9v"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="301" height="70"/>
+            <connections>
+                <outlet property="activityIndicator" destination="HUe-QB-oPI" id="nQ5-Fa-kHk"/>
+                <outlet property="iconImageView" destination="55b-Ux-fee" id="RcF-qR-FbF"/>
+                <outlet property="progressView" destination="GzB-Ny-jGy" id="RBO-wb-SeM"/>
+                <outlet property="videoOverlayView" destination="mMv-0n-ixd" id="QVT-e5-ys6"/>
+                <outlet property="videoView" destination="cQw-Zq-Iwc" id="zNw-ec-2C1"/>
+            </connections>
+            <point key="canvasLocation" x="159.5" y="64"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="play" width="48" height="48"/>
+    </resources>
+</document>

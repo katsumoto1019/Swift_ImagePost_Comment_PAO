@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AddTagCollectionViewCell" customModule="Pao_DEV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="36"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="36"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaH-iz-4fE" userLabel="plusButton">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                        <color key="backgroundColor" red="0.035294117649999998" green="0.79607843140000001" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="JDn-ZN-RQc"/>
+                            <constraint firstAttribute="width" constant="50" id="SVZ-bU-ab4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                        <state key="normal">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="plusButtonTouchedInside:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Fpt-4n-lzs"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m05-GQ-80Q">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="48"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="m05-GQ-80Q" secondAttribute="trailing" id="5bc-qd-HwE"/>
+                <constraint firstAttribute="bottom" secondItem="GaH-iz-4fE" secondAttribute="bottom" id="5nk-Ak-QOd"/>
+                <constraint firstItem="m05-GQ-80Q" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="I2X-E3-DHc"/>
+                <constraint firstAttribute="trailing" secondItem="GaH-iz-4fE" secondAttribute="trailing" id="aK5-Xi-oEs"/>
+                <constraint firstItem="GaH-iz-4fE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eer-JB-1pC"/>
+                <constraint firstItem="m05-GQ-80Q" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="-6" id="iLQ-oa-dIa"/>
+                <constraint firstAttribute="bottom" secondItem="m05-GQ-80Q" secondAttribute="bottom" id="iVk-ev-FfE"/>
+                <constraint firstItem="GaH-iz-4fE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="kHv-TR-u5u"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="50" height="36"/>
+            <connections>
+                <outlet property="plusButton" destination="GaH-iz-4fE" id="59h-ol-fCa"/>
+                <outlet property="plusLabel" destination="m05-GQ-80Q" id="OW2-nA-pEJ"/>
+            </connections>
+            <point key="canvasLocation" x="-81.599999999999994" y="39.580209895052477"/>
+        </collectionViewCell>
+    </objects>
+</document>

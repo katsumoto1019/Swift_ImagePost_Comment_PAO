@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="117" id="KGk-i7-Jjw" customClass="ChecklistItemTableViewCell" customModule="Pao_PROD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="117"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="117"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZg-tW-2t1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To do:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUk-q1-VnD">
+                                <rect key="frame" x="20" y="18" width="282" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qUk-q1-VnD" secondAttribute="trailing" constant="18" id="Hhi-U9-Mnq"/>
+                            <constraint firstAttribute="bottom" secondItem="qUk-q1-VnD" secondAttribute="bottom" id="Ijb-iB-aE9"/>
+                            <constraint firstAttribute="height" constant="42" id="ZtS-hb-zzM"/>
+                            <constraint firstItem="qUk-q1-VnD" firstAttribute="leading" secondItem="jZg-tW-2t1" secondAttribute="leading" constant="20" id="sjV-lF-2d2"/>
+                            <constraint firstItem="qUk-q1-VnD" firstAttribute="top" secondItem="jZg-tW-2t1" secondAttribute="top" constant="18" id="xvb-PS-zff"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbu-nB-Vqi">
+                        <rect key="frame" x="0.0" y="42" width="320" height="75"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljf-Gq-T4L">
+                                <rect key="frame" x="28" y="28.5" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="syH-VO-dPq"/>
+                                    <constraint firstAttribute="height" constant="18" id="x72-DQ-g2x"/>
+                                </constraints>
+                                <state key="normal" image="notification-unchecked"/>
+                                <state key="selected" image="notification-check"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8L-Kh-R1v">
+                                <rect key="frame" x="62" y="27" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightArrowNav" translatesAutoresizingMaskIntoConstraints="NO" id="Jso-lZ-JGp">
+                                <rect key="frame" x="282" y="28.5" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="TXg-7e-s8D"/>
+                                    <constraint firstAttribute="height" constant="18" id="aNj-o3-5kO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="8T7-gg-2tU"/>
+                            <constraint firstItem="Jso-lZ-JGp" firstAttribute="centerY" secondItem="jbu-nB-Vqi" secondAttribute="centerY" id="8hw-fg-2W7"/>
+                            <constraint firstItem="ljf-Gq-T4L" firstAttribute="centerY" secondItem="jbu-nB-Vqi" secondAttribute="centerY" id="KjU-dE-iyU"/>
+                            <constraint firstItem="A8L-Kh-R1v" firstAttribute="leading" secondItem="ljf-Gq-T4L" secondAttribute="trailing" constant="16" id="a18-Yz-aJe"/>
+                            <constraint firstItem="ljf-Gq-T4L" firstAttribute="leading" secondItem="jbu-nB-Vqi" secondAttribute="leadingMargin" constant="20" id="msv-lK-PZn"/>
+                            <constraint firstAttribute="trailing" secondItem="Jso-lZ-JGp" secondAttribute="trailing" constant="20" id="rKz-Y2-tR7"/>
+                            <constraint firstItem="A8L-Kh-R1v" firstAttribute="centerY" secondItem="jbu-nB-Vqi" secondAttribute="centerY" id="t4b-mk-wPt"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="A8L-Kh-R1v" secondAttribute="trailing" id="zZn-Qk-60B"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="jbu-nB-Vqi" secondAttribute="trailing" id="CJA-mp-YIo"/>
+                    <constraint firstItem="jbu-nB-Vqi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="JOa-sK-WZm"/>
+                    <constraint firstAttribute="trailing" secondItem="jZg-tW-2t1" secondAttribute="trailing" id="PK1-N3-zMU"/>
+                    <constraint firstItem="jbu-nB-Vqi" firstAttribute="top" secondItem="jZg-tW-2t1" secondAttribute="bottom" id="TlH-Ei-FKN"/>
+                    <constraint firstItem="jZg-tW-2t1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="b3e-Rx-DM4"/>
+                    <constraint firstItem="jZg-tW-2t1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="pIY-UX-uc9"/>
+                    <constraint firstAttribute="bottom" secondItem="jbu-nB-Vqi" secondAttribute="bottom" id="qpM-gW-CkB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkboxButton" destination="ljf-Gq-T4L" id="XAD-F3-Pke"/>
+                <outlet property="titleLabel" destination="A8L-Kh-R1v" id="ehm-45-FrZ"/>
+                <outlet property="todoLabel" destination="qUk-q1-VnD" id="lCO-Q2-kfw"/>
+                <outlet property="todoView" destination="jZg-tW-2t1" id="tJk-EV-1Ms"/>
+                <outlet property="todoViewHeightConstraint" destination="ZtS-hb-zzM" id="Ilq-Hz-hV3"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="168.6656671664168"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="notification-check" width="25" height="25"/>
+        <image name="notification-unchecked" width="25" height="25"/>
+        <image name="rightArrowNav" width="9.5" height="18"/>
+    </resources>
+</document>

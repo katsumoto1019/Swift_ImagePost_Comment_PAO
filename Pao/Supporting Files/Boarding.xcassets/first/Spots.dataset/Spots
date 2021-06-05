@@ -1,0 +1,413 @@
+
+{"spots" : [
+    {
+        "imagesCount": 1,
+        "isMediaServed": true,
+        "location": {
+            "formattedAddress": "",
+            "gmsAddress": {
+            	"name":"My Vespa",
+                "administrative_area_level_1": "",
+                "country": "Spain",
+                "locality": "Calpe"
+            },
+            "googlePlaceId": "ChIJoQYoin-6woARD9eSq3OWN8w",
+            "name": "",
+            "coordinate": {
+                "latitude": 33.9789405,
+                "longitude": -118.4381553
+            }
+        },
+        "media": {
+            "1": {
+                "index": 0,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "JorgeSala1"
+            },
+            "2": {
+                "index": 1,
+                "placeholderColor": "#b2937c",
+                "type": 0,
+                "url": "JorgeSala1"
+            },
+            "3": {
+                "index": 2,
+                "type": 0,
+                "url": "JorgeSala1"
+            },
+	        "4": {
+                "index": 3,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "JorgeSala1"
+            },
+            "5": {
+                "index": 4,
+                "placeholderColor": "#b2937c",
+                "type": 0,
+                "url": "JorgeSala1"
+            },
+            "6": {
+                "index": 5,
+                "type": 0,
+                "url": "JorgeSala1"
+            },
+	        "7": {
+                "index": 6,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "JorgeSala1"
+            },
+            "8": {
+                "index": 7,
+                "placeholderColor": "#b2937c",
+                "type": 0,
+                "url": "JorgeSala1"
+            },
+            "9": {
+                "index": 8,
+                "type": 0,
+                "url": "JorgeSala1"
+            }
+        },
+        "mediaCount": 1,
+        "saves": 0,
+        "timestamp": 1522600229,
+        "user": {
+            "id": "5bcb2b27af6d7e0424c4cb0b",
+            "username": "megan",
+            "name": "Jorge Sala",
+            "profileImage": {
+                "placeholderColor": "#988b85",
+                "url": "JorgeSala"
+            }
+        },
+        "videosCount": 0,
+        "isSavedByViewer": false,
+        "isVerifiedByViewer": false,
+        "id": "1"
+    },
+    {
+        "imagesCount": 1,
+        "isMediaServed": true,
+        "location": {
+            "formattedAddress": "SUGARFISH by sushi nozawa, Admiralty Way, Marina del Rey, CA, USA",
+            "gmsAddress": {
+            	"name":"My Vespa",
+                "administrative_area_level_1": "Roma",
+                "country": "Canada",
+                "locality": "Brossard",
+            },
+            "googlePlaceId": "ChIJoQYoin-6woARD9eSq3OWN8w",
+            "name": "SUGARFISH by sushi nozawa",
+            "coordinate": {
+                "latitude": 33.9789405,
+                "longitude": -118.4381553
+            }
+        },
+        "media": {
+            "1": {
+                "index": 0,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "ClaraVulpisi1"
+            },
+            "2": {
+                "index": 1,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "ClaraVulpisi1"
+            },
+            "3": {
+                "index": 2,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "ClaraVulpisi1"
+            }
+        },
+        "mediaCount": 1,
+        "saves": 0,
+        "timestamp": 1522600229,
+        "user": {
+            "id": "5bcb2b27af6d7e0424c4cb0b",
+            "username": "megan",
+            "name": "Clara Vulpisi",
+            "profileImage": {
+                "placeholderColor": "#988b85",
+                "url": "ClaraVulpisi"
+            }
+        },
+        "videosCount": 0,
+        "isSavedByViewer": false,
+        "isVerifiedByViewer": false,
+        "id": "2"
+    },
+    {
+        "imagesCount": 1,
+        "isMediaServed": true,
+        "location": {
+            "formattedAddress": "SUGARFISH by sushi nozawa, Admiralty Way, Marina del Rey, CA, USA",
+            "gmsAddress": {
+            	"name":"SUNDAY cafe & restaurant",
+                "administrative_area_level_1": "London",
+                "country": "Peru",
+                "locality": "Yungay Province"
+
+            },
+            "googlePlaceId": "ChIJoQYoin-6woARD9eSq3OWN8w",
+            "name": "SUGARFISH by sushi nozawa",
+            "coordinate": {
+                "latitude": 33.9789405,
+                "longitude": -118.4381553
+            }
+        },
+        "media": {
+            "1": {
+                "index": 0,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "JaydenRandazzo1"
+            },
+            "2": {
+                "index": 1,
+                "placeholderColor": "#b2937c",
+                "type": 0,
+                "url": "JaydenRandazzo1"
+            },
+            "3": {
+                "index": 2,
+                "type": 0,
+                "url": "JaydenRandazzo1"
+            },
+            "4": {
+                "index": 3,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "JaydenRandazzo1"
+            },
+            "5": {
+                "index": 4,
+                "placeholderColor": "#b2937c",
+                "type": 0,
+                "url": "JaydenRandazzo1"
+            },
+            "6": {
+                "index": 5,
+                "type": 0,
+                "url": "JaydenRandazzo1"
+            },
+            "7": {
+                "index": 6,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "JaydenRandazzo1"
+            },
+            "8": {
+                "index": 7,
+                "placeholderColor": "#b2937c",
+                "type": 0,
+                "url": "JaydenRandazzo1"
+            },
+            "9": {
+                "index": 8,
+                "type": 0,
+                "url": "JaydenRandazzo1"
+            }
+        },
+        "mediaCount": 1,
+        "saves": 0,
+        "timestamp": 1522600229,
+        "user": {
+            "id": "5bcb2b27af6d7e0424c4cb0b",
+            "username": "anna",
+            "name": "Jayden Randazzo",
+            "profileImage": {
+                "placeholderColor": "#988b85",
+                "url": "JaydenRandazzo"
+            }
+        },
+        "videosCount": 0,
+        "isSavedByViewer": false,
+        "isVerifiedByViewer": false,
+        "id": "3"
+    },
+    {
+        "imagesCount": 1,
+        "isMediaServed": true,
+        "location": {
+            "formattedAddress": "SUGARFISH by sushi nozawa, Admiralty Way, Marina del Rey, CA, USA",
+            "gmsAddress": {
+            	"name":"Lake Isabelle",
+                "country": "New Mexico",
+                "locality": "Abiquiu",
+                "administrative_area_level_1":"Colorado",
+                "street_number": "4722"
+            },
+            "googlePlaceId": "ChIJoQYoin-6woARD9eSq3OWN8w",
+            "name": "SUGARFISH by sushi nozawa",
+            "coordinate": {
+                "latitude": 33.9789405,
+                "longitude": -118.4381553
+            }
+        },
+        "media": {
+            "1": {
+                "index": 0,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "Alexandra1"
+            },
+            "2": {
+                "index": 1,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "Alexandra1"
+            },
+            "3": {
+                "index": 2,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "Alexandra1"
+            },
+            "4": {
+                "index": 3,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "Alexandra1"
+            },
+            "5": {
+                "index": 4,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "Alexandra1"
+            },
+            "6": {
+                "index": 5,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "Alexandra1"
+            },
+            "7": {
+                "index": 6,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "Alexandra1"
+            },
+            "8": {
+                "index": 7,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "Alexandra1"
+            },
+            "9": {
+                "index": 8,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "Alexandra1"
+            },
+            "10": {
+                "index": 9,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "Alexandra1"
+            }
+        },
+        "mediaCount": 1,
+        "saves": 0,
+        "timestamp": 1522600229,
+        "user": {
+            "id": "5bcb2b27af6d7e0424c4cb0b",
+            "username": "jason",
+            "name": "Alexandra",
+            "profileImage": {
+                "placeholderColor": "#988b85",
+                "url": "Alexandra"
+            }
+        },
+        "videosCount": 0,
+        "isSavedByViewer": false,
+        "isVerifiedByViewer": false,
+        "id": "4"
+    },
+    {
+        "imagesCount": 1,
+        "isMediaServed": true,
+        "location": {
+            "formattedAddress": "SUGARFISH by sushi nozawa, Admiralty Way, Marina del Rey, CA, USA",
+            "gmsAddress": {
+            	"name":"Lake Isabelle",
+                "country": "Netherlands",
+                "locality": "Amsterdam",
+                "administrative_area_level_1":"Colorado",
+                "street_number": "4722"
+            },
+            "googlePlaceId": "ChIJoQYoin-6woARD9eSq3OWN8w",
+            "name": "SUGARFISH by sushi nozawa",
+            "coordinate": {
+                "latitude": 33.9789405,
+                "longitude": -118.4381553
+            }
+        },
+        "media": {
+            "1": {
+                "index": 0,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "BenteStumpel1"
+            },
+            "2": {
+                "index": 1,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "BenteStumpel1"
+            },
+            "3": {
+                "index": 2,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "BenteStumpel1"
+            },
+            "4": {
+                "index": 3,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "BenteStumpel1"
+            },
+            "5": {
+                "index": 4,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "BenteStumpel1"
+            },
+            "6": {
+                "index": 5,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "BenteStumpel1"
+            },
+            "7": {
+                "index": 6,
+                "placeholderColor": "#c09a77",
+                "type": 0,
+                "url": "BenteStumpel1"
+            }
+        },
+        "mediaCount": 1,
+        "saves": 0,
+        "timestamp": 1522600229,
+        "user": {
+            "id": "5bcb2b27af6d7e0424c4cb0b",
+            "username": "jason",
+            "name": "Bente Stumpel",
+            "profileImage": {
+                "placeholderColor": "#988b85",
+                "url": "BenteStumpel"
+            }
+        },
+        "videosCount": 0,
+        "isSavedByViewer": false,
+        "isVerifiedByViewer": false,
+        "id": "5"
+    }
+]}

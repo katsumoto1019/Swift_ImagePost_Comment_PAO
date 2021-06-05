@@ -1,0 +1,83 @@
+service cloud.firestore {
+  match /databases/{database}/documents {  
+  	
+    function isAuthenticated() {
+      return request.auth.uid != null;
+    }
+
+    function isOwner(uid) {
+    	return isAuthenticated() && (uid != null && request.auth.uid == uid ||
+      resource != null && request.auth.uid == resource.data.user.id ||
+      request.auth.uid == request.resource.data.user.id);
+    }
+
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function userHasRole(role) {
+      return getUserData().roles[role] == true;
+    }
+    
+  	// // all full access
+  	// match /{document=**} {
+  	// 	allow read, write;
+  	// }
+  
+  	match /configurations/{document} {
+    	allow read;
+      allow write: if userHasRole('admin');
+    }
+    
+    match /feedWeights/{document} {
+    	allow read, write: if userHasRole('admin');
+    }
+    
+    match /incompleteSpots/{document} {
+    	allow read, write: if isOwner(null);
+    }    
+    
+    match /meta/{document} {
+    	allow read: if userHasRole('admin');
+    }    
+    
+    match /saveBoards/{document} {
+    	allow read: if isAuthenticated();
+      allow write: if isOwner(null);
+    }    
+    
+    match /spots/{document} {
+    	allow read: if isAuthenticated();
+      allow write: if isOwner(null) || userHasRole('admin');
+      allow delete: if userHasRole('admin');
+    }
+        
+    match /stats/{document} {
+    	allow read: if userHasRole('admin');
+      allow write: if userHasRole('admin');
+    }
+        
+    match /uploadBoards/{document} {
+    	allow read: if isAuthenticated();
+      allow write: if isOwner(null);
+    }
+        
+    match /userSettings/{document} {
+    	allow read, write: if isOwner(null) || userHasRole('admin');
+    }
+    
+    match /users/{document} {
+    	allow read: if isAuthenticated();
+      allow write: if isOwner(request.resource.data.id) || userHasRole('admin');
+     
+     	match /notifications/{nestedDocument} {
+    		allow read: if isOwner(document);
+    	}
+      
+      match /userFeed/{nestedDocument} {
+    		allow read: if isOwner(document) || userHasRole('admin');
+        allow write: if userHasRole('admin');
+    	}
+    }
+  }
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="toC-6L-nPN" customClass="CommentInputView" customModule="Pao_DEV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="458" height="56"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xbP-x3-NLK">
+                    <rect key="frame" x="0.0" y="0.0" width="458" height="56"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8LF-Gp-kPh">
+                            <rect key="frame" x="8" y="7" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="8LF-Gp-kPh" secondAttribute="height" multiplier="1:1" id="Y0f-se-Wdy"/>
+                                <constraint firstAttribute="height" constant="40" id="eC5-tr-BXL"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jwD-2Z-s9W">
+                            <rect key="frame" x="56" y="8" width="394" height="39"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZHO-JJ-nyb" customClass="PlaceHolderTextView" customModule="Pao_DEV" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="2" width="331" height="33"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Add a comment..."/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </textView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79X-FE-dcj">
+                                    <rect key="frame" x="347" y="6.5" width="35" height="27"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="35" id="gx7-eo-fah"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <state key="normal" title="post"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="79X-FE-dcj" secondAttribute="trailing" constant="12" id="I5G-Zk-ACG"/>
+                                <constraint firstItem="79X-FE-dcj" firstAttribute="leading" secondItem="ZHO-JJ-nyb" secondAttribute="trailing" constant="8" id="OY2-MB-R6f"/>
+                                <constraint firstItem="ZHO-JJ-nyb" firstAttribute="leading" secondItem="jwD-2Z-s9W" secondAttribute="leading" constant="8" id="abl-Re-hhy"/>
+                                <constraint firstItem="ZHO-JJ-nyb" firstAttribute="top" secondItem="jwD-2Z-s9W" secondAttribute="top" constant="2" id="elf-If-YYm"/>
+                                <constraint firstAttribute="bottom" secondItem="ZHO-JJ-nyb" secondAttribute="bottom" constant="4" id="fHK-mT-9pa"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vUb-cL-3pG">
+                            <rect key="frame" x="0.0" y="55" width="458" height="1"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="giH-Bw-Bfp">
+                                    <rect key="frame" x="0.0" y="0.0" width="458" height="1"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="uY5-zr-CA2"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="vUb-cL-3pG" secondAttribute="bottom" id="3Wn-Fd-7SY"/>
+                        <constraint firstItem="jwD-2Z-s9W" firstAttribute="leading" secondItem="8LF-Gp-kPh" secondAttribute="trailing" constant="8" id="Cag-NV-re6"/>
+                        <constraint firstItem="8LF-Gp-kPh" firstAttribute="bottom" secondItem="jwD-2Z-s9W" secondAttribute="bottom" id="Dhd-vd-spd"/>
+                        <constraint firstAttribute="trailing" secondItem="jwD-2Z-s9W" secondAttribute="trailing" constant="8" id="FwB-is-yS5"/>
+                        <constraint firstAttribute="trailing" secondItem="vUb-cL-3pG" secondAttribute="trailing" id="ORM-kE-5KQ"/>
+                        <constraint firstItem="jwD-2Z-s9W" firstAttribute="top" secondItem="xbP-x3-NLK" secondAttribute="top" constant="8" id="UPf-rv-7WP"/>
+                        <constraint firstItem="79X-FE-dcj" firstAttribute="centerY" secondItem="xbP-x3-NLK" secondAttribute="centerY" id="W6x-Mo-G3f"/>
+                        <constraint firstItem="vUb-cL-3pG" firstAttribute="leading" secondItem="xbP-x3-NLK" secondAttribute="leading" id="r3E-FO-2d1"/>
+                        <constraint firstItem="8LF-Gp-kPh" firstAttribute="leading" secondItem="xbP-x3-NLK" secondAttribute="leading" constant="8" id="wDW-xp-VTc"/>
+                        <constraint firstItem="vUb-cL-3pG" firstAttribute="top" secondItem="jwD-2Z-s9W" secondAttribute="bottom" constant="8" id="x5L-2i-aHO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="xbP-x3-NLK" firstAttribute="leading" secondItem="yxH-V9-IJw" secondAttribute="leading" id="E7A-1o-GUS"/>
+                <constraint firstItem="xbP-x3-NLK" firstAttribute="trailing" secondItem="yxH-V9-IJw" secondAttribute="trailing" id="RVO-P9-sDh"/>
+                <constraint firstItem="xbP-x3-NLK" firstAttribute="top" secondItem="yxH-V9-IJw" secondAttribute="top" id="aEp-v0-RfN"/>
+                <constraint firstItem="xbP-x3-NLK" firstAttribute="bottom" secondItem="yxH-V9-IJw" secondAttribute="bottom" id="dp4-Ak-bwC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="yxH-V9-IJw"/>
+            <connections>
+                <outlet property="commentTextView" destination="ZHO-JJ-nyb" id="S6m-FN-U0N"/>
+                <outlet property="containerView" destination="xbP-x3-NLK" id="KbJ-Cd-Oiz"/>
+                <outlet property="descriptionSubView" destination="jwD-2Z-s9W" id="sxk-V2-XPL"/>
+                <outlet property="postButton" destination="79X-FE-dcj" id="OXy-ZK-idi"/>
+                <outlet property="profileImageView" destination="8LF-Gp-kPh" id="pqF-dk-h7S"/>
+                <outlet property="stackView" destination="vUb-cL-3pG" id="OhR-vW-VsF"/>
+            </connections>
+            <point key="canvasLocation" x="-27.199999999999999" y="123.23838080959521"/>
+        </view>
+    </objects>
+</document>

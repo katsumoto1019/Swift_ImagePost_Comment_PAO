@@ -1,0 +1,155 @@
+{
+  "indexes": [
+    {
+      "collectionId": "spots",
+      "fields": [
+        { "fieldPath": "platform", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "spots",
+      "fields": [
+        { "fieldPath": "category.id", "mode": "ASCENDING" },
+        { "fieldPath": "platform", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "spots",
+      "fields": [
+        { "fieldPath": "category.id", "mode": "ASCENDING" },
+        { "fieldPath": "location.gmsAddress.administrative_area_level_2", "mode": "ASCENDING" },
+        { "fieldPath": "platform", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "spots",
+      "fields": [
+        { "fieldPath": "location.gmsAddress.administrative_area_level_1", "mode": "ASCENDING" },
+        { "fieldPath": "platform", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "spots",
+      "fields": [
+        { "fieldPath": "location.gmsAddress.administrative_area_level_2", "mode": "ASCENDING" },
+        { "fieldPath": "platform", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "userFeed",
+      "fields": [
+        { "fieldPath": "category.id", "mode": "ASCENDING" },
+        { "fieldPath": "feedIndex", "mode": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "userFeed",
+      "fields": [
+        { "fieldPath": "location.gmsAddress.administrative_area_level_1", "mode": "ASCENDING" },
+        { "fieldPath": "feedIndex", "mode": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "userFeed",
+      "fields": [
+        { "fieldPath": "location.gmsAddress.administrative_area_level_2", "mode": "ASCENDING" },
+        { "fieldPath": "feedIndex", "mode": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "userFeed",
+      "fields": [
+        { "fieldPath": "category.id", "mode": "ASCENDING" },
+        { "fieldPath": "location.gmsAddress.administrative_area_level_1", "mode": "ASCENDING" },
+        { "fieldPath": "feedIndex", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "userFeed",
+      "fields": [
+        { "fieldPath": "category.id", "mode": "ASCENDING" },
+        { "fieldPath": "location.gmsAddress.administrative_area_level_2", "mode": "ASCENDING" },
+        { "fieldPath": "feedIndex", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "uploadBoards",
+      "fields": [
+        { "fieldPath": "user.id", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "uploadBoards",
+      "fields": [
+        { "fieldPath": "nestingLevel", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "uploadBoards",
+      "fields": [
+        { "fieldPath": "parentBoardId", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "uploadBoards",
+      "fields": [
+        { "fieldPath": "nestingLevel", "mode": "ASCENDING" },
+        { "fieldPath": "user.id", "mode": "ASCENDING" },
+        { "fieldPath": "title", "mode": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "uploadBoards",
+      "fields": [
+        { "fieldPath": "parentBoardId", "mode": "ASCENDING" },
+        { "fieldPath": "user.id", "mode": "ASCENDING" },
+        { "fieldPath": "title", "mode": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "saveBoards",
+      "fields": [
+        { "fieldPath": "user.id", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "saveBoards",
+      "fields": [
+        { "fieldPath": "nestingLevel", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "saveBoards",
+      "fields": [
+        { "fieldPath": "parentBoardId", "mode": "ASCENDING" },
+        { "fieldPath": "timestamp", "mode": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "saveBoards",
+      "fields": [
+        { "fieldPath": "nestingLevel", "mode": "ASCENDING" },
+        { "fieldPath": "user.id", "mode": "ASCENDING" },
+        { "fieldPath": "title", "mode": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "saveBoards",
+      "fields": [
+        { "fieldPath": "parentBoardId", "mode": "ASCENDING" },
+        { "fieldPath": "user.id", "mode": "ASCENDING" },
+        { "fieldPath": "title", "mode": "ASCENDING" }
+      ]
+    }
+  ]
+}

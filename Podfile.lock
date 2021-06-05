@@ -1,0 +1,619 @@
+PODS:
+  - abseil/algorithm (0.20200225.0):
+    - abseil/algorithm/algorithm (= 0.20200225.0)
+    - abseil/algorithm/container (= 0.20200225.0)
+  - abseil/algorithm/algorithm (0.20200225.0):
+    - abseil/base/config
+  - abseil/algorithm/container (0.20200225.0):
+    - abseil/algorithm/algorithm
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+  - abseil/base (0.20200225.0):
+    - abseil/base/atomic_hook (= 0.20200225.0)
+    - abseil/base/base (= 0.20200225.0)
+    - abseil/base/base_internal (= 0.20200225.0)
+    - abseil/base/bits (= 0.20200225.0)
+    - abseil/base/config (= 0.20200225.0)
+    - abseil/base/core_headers (= 0.20200225.0)
+    - abseil/base/dynamic_annotations (= 0.20200225.0)
+    - abseil/base/endian (= 0.20200225.0)
+    - abseil/base/errno_saver (= 0.20200225.0)
+    - abseil/base/exponential_biased (= 0.20200225.0)
+    - abseil/base/log_severity (= 0.20200225.0)
+    - abseil/base/malloc_internal (= 0.20200225.0)
+    - abseil/base/periodic_sampler (= 0.20200225.0)
+    - abseil/base/pretty_function (= 0.20200225.0)
+    - abseil/base/raw_logging_internal (= 0.20200225.0)
+    - abseil/base/spinlock_wait (= 0.20200225.0)
+    - abseil/base/throw_delegate (= 0.20200225.0)
+  - abseil/base/atomic_hook (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/base (0.20200225.0):
+    - abseil/base/atomic_hook
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/dynamic_annotations
+    - abseil/base/log_severity
+    - abseil/base/raw_logging_internal
+    - abseil/base/spinlock_wait
+    - abseil/meta/type_traits
+  - abseil/base/base_internal (0.20200225.0):
+    - abseil/base/config
+    - abseil/meta/type_traits
+  - abseil/base/bits (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/config (0.20200225.0)
+  - abseil/base/core_headers (0.20200225.0):
+    - abseil/base/config
+  - abseil/base/dynamic_annotations (0.20200225.0)
+  - abseil/base/endian (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/errno_saver (0.20200225.0):
+    - abseil/base/config
+  - abseil/base/exponential_biased (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/log_severity (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/base/malloc_internal (0.20200225.0):
+    - abseil/base/base
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/dynamic_annotations
+    - abseil/base/raw_logging_internal
+  - abseil/base/periodic_sampler (0.20200225.0):
+    - abseil/base/core_headers
+    - abseil/base/exponential_biased
+  - abseil/base/pretty_function (0.20200225.0)
+  - abseil/base/raw_logging_internal (0.20200225.0):
+    - abseil/base/atomic_hook
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/log_severity
+  - abseil/base/spinlock_wait (0.20200225.0):
+    - abseil/base/base_internal
+    - abseil/base/core_headers
+    - abseil/base/errno_saver
+  - abseil/base/throw_delegate (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+  - abseil/container/compressed_tuple (0.20200225.0):
+    - abseil/utility/utility
+  - abseil/container/inlined_vector (0.20200225.0):
+    - abseil/algorithm/algorithm
+    - abseil/base/core_headers
+    - abseil/base/throw_delegate
+    - abseil/container/inlined_vector_internal
+    - abseil/memory/memory
+  - abseil/container/inlined_vector_internal (0.20200225.0):
+    - abseil/base/core_headers
+    - abseil/container/compressed_tuple
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/types/span
+  - abseil/memory (0.20200225.0):
+    - abseil/memory/memory (= 0.20200225.0)
+  - abseil/memory/memory (0.20200225.0):
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+  - abseil/meta (0.20200225.0):
+    - abseil/meta/type_traits (= 0.20200225.0)
+  - abseil/meta/type_traits (0.20200225.0):
+    - abseil/base/config
+  - abseil/numeric/int128 (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+  - abseil/strings/internal (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/base/raw_logging_internal
+    - abseil/meta/type_traits
+  - abseil/strings/str_format (0.20200225.0):
+    - abseil/strings/str_format_internal
+  - abseil/strings/str_format_internal (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+    - abseil/numeric/int128
+    - abseil/strings/strings
+    - abseil/types/span
+  - abseil/strings/strings (0.20200225.0):
+    - abseil/base/base
+    - abseil/base/bits
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/base/endian
+    - abseil/base/raw_logging_internal
+    - abseil/base/throw_delegate
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/numeric/int128
+    - abseil/strings/internal
+  - abseil/time (0.20200225.0):
+    - abseil/time/internal (= 0.20200225.0)
+    - abseil/time/time (= 0.20200225.0)
+  - abseil/time/internal (0.20200225.0):
+    - abseil/time/internal/cctz (= 0.20200225.0)
+  - abseil/time/internal/cctz (0.20200225.0):
+    - abseil/time/internal/cctz/civil_time (= 0.20200225.0)
+    - abseil/time/internal/cctz/time_zone (= 0.20200225.0)
+  - abseil/time/internal/cctz/civil_time (0.20200225.0):
+    - abseil/base/config
+  - abseil/time/internal/cctz/time_zone (0.20200225.0):
+    - abseil/base/config
+    - abseil/time/internal/cctz/civil_time
+  - abseil/time/time (0.20200225.0):
+    - abseil/base/base
+    - abseil/base/core_headers
+    - abseil/base/raw_logging_internal
+    - abseil/numeric/int128
+    - abseil/strings/strings
+    - abseil/time/internal/cctz/civil_time
+    - abseil/time/internal/cctz/time_zone
+  - abseil/types (0.20200225.0):
+    - abseil/types/any (= 0.20200225.0)
+    - abseil/types/bad_any_cast (= 0.20200225.0)
+    - abseil/types/bad_any_cast_impl (= 0.20200225.0)
+    - abseil/types/bad_optional_access (= 0.20200225.0)
+    - abseil/types/bad_variant_access (= 0.20200225.0)
+    - abseil/types/compare (= 0.20200225.0)
+    - abseil/types/optional (= 0.20200225.0)
+    - abseil/types/span (= 0.20200225.0)
+    - abseil/types/variant (= 0.20200225.0)
+  - abseil/types/any (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+    - abseil/types/bad_any_cast
+    - abseil/utility/utility
+  - abseil/types/bad_any_cast (0.20200225.0):
+    - abseil/base/config
+    - abseil/types/bad_any_cast_impl
+  - abseil/types/bad_any_cast_impl (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+  - abseil/types/bad_optional_access (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+  - abseil/types/bad_variant_access (0.20200225.0):
+    - abseil/base/config
+    - abseil/base/raw_logging_internal
+  - abseil/types/compare (0.20200225.0):
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+  - abseil/types/optional (0.20200225.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/memory/memory
+    - abseil/meta/type_traits
+    - abseil/types/bad_optional_access
+    - abseil/utility/utility
+  - abseil/types/span (0.20200225.0):
+    - abseil/algorithm/algorithm
+    - abseil/base/core_headers
+    - abseil/base/throw_delegate
+    - abseil/meta/type_traits
+  - abseil/types/variant (0.20200225.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/base/core_headers
+    - abseil/meta/type_traits
+    - abseil/types/bad_variant_access
+    - abseil/utility/utility
+  - abseil/utility/utility (0.20200225.0):
+    - abseil/base/base_internal
+    - abseil/base/config
+    - abseil/meta/type_traits
+  - Alamofire (5.4.1)
+  - Amplitude-iOS (4.10.0)
+  - BoringSSL-GRPC (0.0.7):
+    - BoringSSL-GRPC/Implementation (= 0.0.7)
+    - BoringSSL-GRPC/Interface (= 0.0.7)
+  - BoringSSL-GRPC/Implementation (0.0.7):
+    - BoringSSL-GRPC/Interface (= 0.0.7)
+  - BoringSSL-GRPC/Interface (0.0.7)
+  - BugfenderSDK (1.10.2)
+  - CCBottomRefreshControl (0.5.2)
+  - ConsistencyManager (8.0.0)
+  - CropViewController (2.5.5)
+  - FacebookSDK (8.0.0):
+    - FacebookSDK/CoreKit (= 8.0.0)
+  - FacebookSDK/CoreKit (8.0.0):
+    - FBSDKCoreKit (~> 8.0.0)
+  - FBSDKCoreKit (8.0.0):
+    - FBSDKCoreKit/Basics (= 8.0.0)
+    - FBSDKCoreKit/Core (= 8.0.0)
+  - FBSDKCoreKit/Basics (8.0.0)
+  - FBSDKCoreKit/Core (8.0.0):
+    - FBSDKCoreKit/Basics
+  - Firebase/Analytics (6.34.0):
+    - Firebase/Core
+  - Firebase/Auth (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.9.2)
+  - Firebase/Core (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.9.0)
+  - Firebase/CoreOnly (6.34.0):
+    - FirebaseCore (= 6.10.4)
+  - Firebase/Crashlytics (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 4.6.2)
+  - Firebase/Firestore (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseFirestore (~> 1.19.0)
+  - Firebase/Functions (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseFunctions (~> 2.9.0)
+  - Firebase/Messaging (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.7.1)
+  - Firebase/Performance (6.34.0):
+    - Firebase/CoreOnly
+    - FirebasePerformance (~> 3.3.1)
+  - Firebase/RemoteConfig (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 4.9.1)
+  - Firebase/Storage (6.34.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 3.9.1)
+  - FirebaseABTesting (4.2.0):
+    - FirebaseCore (~> 6.10)
+  - FirebaseAnalytics (6.9.0):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstallations (~> 1.7)
+    - GoogleAppMeasurement (= 6.9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/MethodSwizzler (~> 6.7)
+    - GoogleUtilities/Network (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+    - nanopb (~> 1.30906.0)
+  - FirebaseAuth (6.9.2):
+    - FirebaseCore (~> 6.10)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (6.10.4):
+    - FirebaseCoreDiagnostics (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.7.0):
+    - GoogleDataTransport (~> 7.4)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30906.0)
+  - FirebaseCrashlytics (4.6.2):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstallations (~> 1.6)
+    - GoogleDataTransport (~> 7.2)
+    - nanopb (~> 1.30906.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseFirestore (1.19.0):
+    - abseil/algorithm (= 0.20200225.0)
+    - abseil/base (= 0.20200225.0)
+    - abseil/memory (= 0.20200225.0)
+    - abseil/meta (= 0.20200225.0)
+    - abseil/strings/strings (= 0.20200225.0)
+    - abseil/time (= 0.20200225.0)
+    - abseil/types (= 0.20200225.0)
+    - FirebaseCore (~> 6.10)
+    - "gRPC-C++ (~> 1.28.0)"
+    - leveldb-library (~> 1.22)
+    - nanopb (~> 1.30906.0)
+  - FirebaseFunctions (2.9.0):
+    - FirebaseCore (~> 6.10)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseInstallations (1.7.0):
+    - FirebaseCore (~> 6.10)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.8.0):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstallations (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+  - FirebaseMessaging (4.7.1):
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstanceID (~> 4.7)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Reachability (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebasePerformance (3.3.1):
+    - FirebaseCore (~> 6.9)
+    - FirebaseInstallations (~> 1.5)
+    - FirebaseRemoteConfig (~> 4.7)
+    - GoogleDataTransport (~> 7.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/ISASwizzler (~> 6.2)
+    - GoogleUtilities/MethodSwizzler (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.12)
+  - FirebaseRemoteConfig (4.9.1):
+    - FirebaseABTesting (~> 4.2)
+    - FirebaseCore (~> 6.10)
+    - FirebaseInstallations (~> 1.6)
+    - GoogleUtilities/Environment (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+  - FirebaseStorage (3.9.1):
+    - FirebaseCore (~> 6.10)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleAppMeasurement (6.9.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
+    - GoogleUtilities/MethodSwizzler (~> 6.7)
+    - GoogleUtilities/Network (~> 6.7)
+    - "GoogleUtilities/NSData+zlib (~> 6.7)"
+    - nanopb (~> 1.30906.0)
+  - GoogleDataTransport (7.5.1):
+    - nanopb (~> 1.30906.0)
+  - GoogleMaps (4.2.0):
+    - GoogleMaps/Maps (= 4.2.0)
+  - GoogleMaps/Base (4.2.0)
+  - GoogleMaps/Maps (4.2.0):
+    - GoogleMaps/Base
+  - GooglePlaces (4.2.0):
+    - GoogleMaps/Base (= 4.2.0)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - GoogleToolboxForMac/Logger (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.2)":
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleUtilities/AppDelegateSwizzler (6.7.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/ISASwizzler (6.7.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.7.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.2)"
+  - GoogleUtilities/Reachability (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.7.2):
+    - GoogleUtilities/Logger
+  - "gRPC-C++ (1.28.2)":
+    - "gRPC-C++/Implementation (= 1.28.2)"
+    - "gRPC-C++/Interface (= 1.28.2)"
+  - "gRPC-C++/Implementation (1.28.2)":
+    - abseil/container/inlined_vector (= 0.20200225.0)
+    - abseil/memory/memory (= 0.20200225.0)
+    - abseil/strings/str_format (= 0.20200225.0)
+    - abseil/strings/strings (= 0.20200225.0)
+    - abseil/types/optional (= 0.20200225.0)
+    - "gRPC-C++/Interface (= 1.28.2)"
+    - gRPC-Core (= 1.28.2)
+  - "gRPC-C++/Interface (1.28.2)"
+  - gRPC-Core (1.28.2):
+    - gRPC-Core/Implementation (= 1.28.2)
+    - gRPC-Core/Interface (= 1.28.2)
+  - gRPC-Core/Implementation (1.28.2):
+    - abseil/container/inlined_vector (= 0.20200225.0)
+    - abseil/memory/memory (= 0.20200225.0)
+    - abseil/strings/str_format (= 0.20200225.0)
+    - abseil/strings/strings (= 0.20200225.0)
+    - abseil/types/optional (= 0.20200225.0)
+    - BoringSSL-GRPC (= 0.0.7)
+    - gRPC-Core/Interface (= 1.28.2)
+  - gRPC-Core/Interface (1.28.2)
+  - GTMSessionFetcher/Core (1.4.0)
+  - Instructions (2.0.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (6.1.1)
+  - leveldb-library (1.22)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - nanopb (1.30906.0):
+    - nanopb/decode (= 1.30906.0)
+    - nanopb/encode (= 1.30906.0)
+  - nanopb/decode (1.30906.0)
+  - nanopb/encode (1.30906.0)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - Payload (0.1.6)
+  - PINCache (3.0.2):
+    - PINCache/Arc-exception-safe (= 3.0.2)
+    - PINCache/Core (= 3.0.2)
+  - PINCache/Arc-exception-safe (3.0.2):
+    - PINCache/Core
+  - PINCache/Core (3.0.2):
+    - PINOperation (~> 1.2.0)
+  - PINOperation (1.2)
+  - PINRemoteImage/Core (3.0.1):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.1):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.1):
+    - PINCache (~> 3.0.1)
+    - PINRemoteImage/Core
+  - PromisesObjC (1.2.11)
+  - Protobuf (3.13.0)
+  - ReachabilitySwift (5.0.0)
+  - RocketData (8.0.0):
+    - ConsistencyManager (~> 8.0.0)
+  - SwiftGen (6.4.0)
+  - SwiftLocation (4.2.0)
+  - Texture (3.0.0):
+    - Texture/AssetsLibrary (= 3.0.0)
+    - Texture/Core (= 3.0.0)
+    - Texture/MapKit (= 3.0.0)
+    - Texture/Photos (= 3.0.0)
+    - Texture/PINRemoteImage (= 3.0.0)
+    - Texture/Video (= 3.0.0)
+  - Texture/AssetsLibrary (3.0.0):
+    - Texture/Core
+  - Texture/Core (3.0.0)
+  - Texture/MapKit (3.0.0):
+    - Texture/Core
+  - Texture/Photos (3.0.0):
+    - Texture/Core
+  - Texture/PINRemoteImage (3.0.0):
+    - PINRemoteImage/iOS (~> 3.0.0)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (3.0.0):
+    - Texture/Core
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - Amplitude-iOS
+  - BugfenderSDK
+  - CCBottomRefreshControl
+  - CropViewController
+  - FacebookSDK
+  - Firebase/Analytics
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Crashlytics
+  - Firebase/Firestore
+  - Firebase/Functions
+  - Firebase/Messaging
+  - Firebase/Performance
+  - Firebase/RemoteConfig
+  - Firebase/Storage
+  - GoogleMaps (= 4.2.0)
+  - GooglePlaces (= 4.2.0)
+  - Instructions
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 6.0)
+  - Motion
+  - NVActivityIndicatorView
+  - Payload
+  - ReachabilitySwift
+  - RocketData
+  - SwiftGen
+  - SwiftLocation
+  - Texture
+
+SPEC REPOS:
+  trunk:
+    - abseil
+    - Alamofire
+    - Amplitude-iOS
+    - BoringSSL-GRPC
+    - BugfenderSDK
+    - CCBottomRefreshControl
+    - ConsistencyManager
+    - CropViewController
+    - FacebookSDK
+    - FBSDKCoreKit
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseFirestore
+    - FirebaseFunctions
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - FirebaseStorage
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - "gRPC-C++"
+    - gRPC-Core
+    - GTMSessionFetcher
+    - Instructions
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - leveldb-library
+    - Motion
+    - nanopb
+    - NVActivityIndicatorView
+    - Payload
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - PromisesObjC
+    - Protobuf
+    - ReachabilitySwift
+    - RocketData
+    - SwiftGen
+    - SwiftLocation
+    - Texture
+
+SPEC CHECKSUMS:
+  abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Amplitude-iOS: 7d8cdc3408ba35c2e68368fc7c692cd104606b94
+  BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
+  BugfenderSDK: ac7762a445d63c166cb0211b611f5cddbb200bdc
+  CCBottomRefreshControl: 389780b4488321c91d18f66a6da5ef9606df6de5
+  ConsistencyManager: 72b8d918dfb257171fe45e994b45e3f38f6708fe
+  CropViewController: bd3ff11eeeaadc1e267bb9c3f3e9ee67a52d3285
+  FacebookSDK: 57f08b331cc29d7c65e2b7200dbb6f58e223d627
+  FBSDKCoreKit: 9d27fe97a2fa2abe5eeefea8240e837623ab88e0
+  Firebase: c23a36d9e4cdf7877dfcba8dd0c58add66358999
+  FirebaseABTesting: 8a9d8df3acc2b43f4a22014ddf9f601bca6af699
+  FirebaseAnalytics: 3bb096873ee0d7fa4b6c70f5e9166b6da413cc7f
+  FirebaseAuth: c92d49ada7948d1a23466e3db17bc4c2039dddc3
+  FirebaseCore: d3a978a3cfa3240bf7e4ba7d137fdf5b22b628ec
+  FirebaseCoreDiagnostics: 770ac5958e1372ce67959ae4b4f31d8e127c3ac1
+  FirebaseCrashlytics: 1a747c9cc084a24dc6d9511c991db1cd078154eb
+  FirebaseFirestore: 9b2f1b9b9a6f2f0b6fb7484b9e32ab7e39243554
+  FirebaseFunctions: 27518fdd14d8b3a849e2443f921cd1b471ab7acd
+  FirebaseInstallations: 466c7b4d1f58fe16707693091da253726a731ed2
+  FirebaseInstanceID: bd3ffc24367f901a43c063b36c640b345a4a5dd1
+  FirebaseMessaging: 5eca4ef173de76253352511aafef774caa1cba2a
+  FirebasePerformance: e325a8ee84a6a3d89c0be049390ed6c1775cce22
+  FirebaseRemoteConfig: 35a729305f254fb15a2e541d4b36f3a379da7fdc
+  FirebaseStorage: 15e0f15ef3c7fec3d1899d68623e47d4447066b4
+  GoogleAppMeasurement: a6a3a066369828db64eda428cb2856dc1cdc7c4e
+  GoogleDataTransport: f56af7caa4ed338dc8e138a5d7c5973e66440833
+  GoogleMaps: eb03e327edfd70b06de1e6e321653f73712df7ad
+  GooglePlaces: 196a9dd88580dcb3f3df46f415057703d0d2a310
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  "gRPC-C++": 13d8ccef97d5c3c441b7e3c529ef28ebee86fad2
+  gRPC-Core: 4afa11bfbedf7cdecd04de535a9e046893404ed5
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  Instructions: debf9cedeaf8d095108fd35d2c54b97ccf769e65
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: 676d63307fbef6ed5d5ed400bff36983480d7500
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  Payload: 42e23bccfc9d3dee7c44ee557043a24113a343ff
+  PINCache: bea7c404c360f6fe0f6ee783c5cd14e778fa2aab
+  PINOperation: 3a967a927e7867e61976c6cc23e5770416449fbc
+  PINRemoteImage: 3b7cedb118c2d357f87e9eabc7c81ba0202cb236
+  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RocketData: 33de68eddf0dd26f21e871cb2dc840244eb21968
+  SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
+  SwiftLocation: 609ac8859f2c5d48a6cadd2a58c63b1dae02dc25
+  Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
+
+PODFILE CHECKSUM: cf81d7fcb10bddd658fedfaf2a6bbefeab184984
+
+COCOAPODS: 1.10.1

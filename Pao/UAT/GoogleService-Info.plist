@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>734795736219-gpvnv0661a1kkv7ha0sakrm02irpcb37.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.734795736219-gpvnv0661a1kkv7ha0sakrm02irpcb37</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB07jOUQcWRBkBNL8yov9uvGPCedUg3pX0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>734795736219</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pao.pao-uat</string>
+	<key>PROJECT_ID</key>
+	<string>pao-uat-cb20c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pao-uat-cb20c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:734795736219:ios:7079e8c5255b3cc4</string>
+	<key>DATABASE_URL</key>
+	<string>https://pao-uat-cb20c.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,179 @@
+{
+	"users" : [
+	{
+		"user" : {
+
+			"name" : "Larry Loe",
+			"username" : "larry",
+
+			"coverImage":  {
+			"url": "people10"
+			},
+			"profileImage" :  {
+				"url": "people11"
+			},
+
+			"savedSpotsCount": 124,
+			"uploadedSpotsCount": 206,
+
+			"isPublic": true,
+			"isFollowedByViewer":  false
+		},
+		"boards" : 
+		[
+		{
+			"title" : "LOS ANGELES",
+			"thumbnail": {
+				"thumbnailUrl": "https://static01.nyt.com/images/2018/09/05/world/05pakistan-india-1/merlin_142341633_36a86fa6-76a6-4269-9584-9b4b756d602f-articleLarge.jpg",
+				"type" : 1
+			}
+		},
+		{
+			"title" : "NEW YORK",
+			"thumbnail": {
+				"thumbnailUrl":"https://avatars2.githubusercontent.com/u/22917646?s=280&v=4" ,
+				"type" : 1
+			}
+		},
+		{
+			"title": "LONDON",
+			"thumbnail": {
+				"thumbnailUrl":"https://avatars2.githubusercontent.com/u/22917646?s=280&v=4" ,
+				"type" : 1
+			}
+			},
+			{
+				"title": "FRANCE",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+				}
+			},
+			{
+				"title": "GERMANY",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+			}
+			},
+			{
+				"title": "CHICAGO",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+				}
+			},
+			{
+				"title": "SCOTLAND",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+			}
+			},
+			{
+				"title": "CHICAGO",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+				}
+			},
+			{
+				"title": "BRAZIL",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+				}
+			}
+			]
+		},
+
+
+
+			{
+		"user" : {
+
+			"name" : "Larry Loe",
+			"username" : "larry",
+
+			"coverImage":  {
+			"url": "people3"
+			},
+			"profileImage" :  {
+				"url": "people4"
+			},
+
+			"savedSpotsCount": 124,
+			"uploadedSpotsCount": 206,
+
+			"isPublic": true,
+			"isFollowedByViewer":  false
+		},
+		"boards" : 
+		[
+		{
+			"title" : "LOS ANGELES",
+			"thumbnail": {
+				"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+				"type" : 1
+			}
+		},
+		{
+			"title" : "NEW YORK",
+			"thumbnail": {
+				"thumbnailUrl":"https://avatars2.githubusercontent.com/u/22917646?s=280&v=4" ,
+				"type" : 1
+			}
+		},
+		{
+			"title": "LONDON",
+			"thumbnail": {
+				"thumbnailUrl":"https://avatars2.githubusercontent.com/u/22917646?s=280&v=4" ,
+				"type" : 1
+			}
+			},
+			{
+				"title": "FRANCE",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+				}
+			},
+			{
+				"title": "GERMANY",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+			}
+			},
+			{
+				"title": "CHICAGO",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+				}
+			},
+			{
+				"title": "SCOTLAND",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+			}
+			},
+			{
+				"title": "CHICAGO",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+				}
+			},
+			{
+				"title": "BRAZIL",
+				"thumbnail": {
+					"thumbnailUrl": "https://avatars2.githubusercontent.com/u/22917646?s=280&v=4",
+					"type" : 1
+				}
+			}
+			]
+		}
+		]
+	}	

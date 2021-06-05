@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopSoptsViewController" customModule="Pao_DEV" customModuleProvider="target">
+            <connections>
+                <outlet property="separator" destination="ZIg-K2-rg8" id="gDe-VU-fuX"/>
+                <outlet property="tabsView" destination="tdn-kY-JzQ" id="bu8-1W-VuP"/>
+                <outlet property="view" destination="iN0-l3-epB" id="flX-FZ-yQV"/>
+                <outletCollection property="buttons" destination="0cx-8u-c6i" collectionClass="NSMutableArray" id="P5Z-8F-U1v"/>
+                <outletCollection property="buttons" destination="GIj-eY-2eZ" collectionClass="NSMutableArray" id="zh3-sm-HQg"/>
+                <outletCollection property="buttons" destination="qiW-df-hCX" collectionClass="NSMutableArray" id="fNZ-Ez-KzW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tdn-kY-JzQ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZIg-K2-rg8">
+                            <rect key="frame" x="8" y="49.5" width="359" height="0.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="1Yr-Kq-kB7"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="psf-Vb-Q93">
+                            <rect key="frame" x="102.5" y="12.5" width="170" height="25"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cx-8u-c6i" customClass="GradientButton" customModule="Pao_DEV" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="jC6-Ov-wNo"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIj-eY-2eZ" customClass="GradientButton" customModule="Pao_DEV" customModuleProvider="target">
+                                    <rect key="frame" x="60" y="0.0" width="50" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="nIr-Rk-MXe"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qiW-df-hCX" customClass="GradientButton" customModule="Pao_DEV" customModuleProvider="target">
+                                    <rect key="frame" x="120" y="0.0" width="50" height="25"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="uh0-Hf-L91"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="Scroll">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="xV7-nY-s0X"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="0.30217251712328769" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="psf-Vb-Q93" firstAttribute="centerY" secondItem="tdn-kY-JzQ" secondAttribute="centerY" id="2MP-Ih-jgA"/>
+                        <constraint firstItem="psf-Vb-Q93" firstAttribute="centerX" secondItem="tdn-kY-JzQ" secondAttribute="centerX" id="9ZC-HR-6Pn"/>
+                        <constraint firstAttribute="trailing" secondItem="ZIg-K2-rg8" secondAttribute="trailing" constant="8" id="W7c-uI-eLe"/>
+                        <constraint firstAttribute="height" constant="50" id="X7d-SW-E9U"/>
+                        <constraint firstAttribute="bottom" secondItem="ZIg-K2-rg8" secondAttribute="bottom" id="Z0p-Qz-cZR"/>
+                        <constraint firstItem="ZIg-K2-rg8" firstAttribute="leading" secondItem="tdn-kY-JzQ" secondAttribute="leading" constant="8" id="pL5-gd-cL5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tdn-kY-JzQ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="7LW-cI-W78"/>
+                <constraint firstItem="tdn-kY-JzQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="igJ-ep-nXn"/>
+                <constraint firstItem="tdn-kY-JzQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="t7i-Es-gmm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-180" y="99"/>
+        </view>
+    </objects>
+</document>

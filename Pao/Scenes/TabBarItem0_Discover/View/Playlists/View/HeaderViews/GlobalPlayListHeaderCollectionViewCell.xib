@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="globalSectionHeader" id="gTV-IL-0wX" customClass="GlobalPlayListHeaderCollectionViewCell" customModule="Pao_DEV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tx2-Qe-gal" userLabel="HeaderView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discover the World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7Y-88-dpI">
+                                <rect key="frame" x="0.0" y="25" width="375" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="zpZ-DE-CoW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What type of hidden gems are you looking for?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hri-pB-LYg">
+                                <rect key="frame" x="20" y="45" width="335" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Hri-pB-LYg" secondAttribute="bottom" constant="15" id="3Ll-xu-mzp"/>
+                            <constraint firstItem="d7Y-88-dpI" firstAttribute="top" secondItem="tx2-Qe-gal" secondAttribute="top" constant="25" id="Ohq-gp-l4R"/>
+                            <constraint firstItem="d7Y-88-dpI" firstAttribute="leading" secondItem="tx2-Qe-gal" secondAttribute="leading" id="TAi-5Y-r1d"/>
+                            <constraint firstAttribute="trailing" secondItem="Hri-pB-LYg" secondAttribute="trailing" constant="20" id="fqA-A7-9D0"/>
+                            <constraint firstAttribute="trailing" secondItem="d7Y-88-dpI" secondAttribute="trailing" id="kvb-zI-4wB"/>
+                            <constraint firstItem="Hri-pB-LYg" firstAttribute="top" secondItem="d7Y-88-dpI" secondAttribute="bottom" id="qho-2S-A2X"/>
+                            <constraint firstItem="Hri-pB-LYg" firstAttribute="leading" secondItem="tx2-Qe-gal" secondAttribute="leading" constant="20" id="xTJ-SI-bY0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="tx2-Qe-gal" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="A3R-Qw-ihD"/>
+                <constraint firstItem="tx2-Qe-gal" firstAttribute="bottom" secondItem="gTV-IL-0wX" secondAttribute="bottom" id="HIf-BZ-fyY"/>
+                <constraint firstAttribute="top" secondItem="tx2-Qe-gal" secondAttribute="top" id="caI-91-rns"/>
+                <constraint firstAttribute="trailing" secondItem="tx2-Qe-gal" secondAttribute="trailing" id="mm1-1d-R22"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="labelHead" destination="d7Y-88-dpI" id="PDt-Zv-R6D"/>
+                <outlet property="labelSubHeading" destination="Hri-pB-LYg" id="MLe-4W-AV7"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="82"/>
+        </collectionViewCell>
+    </objects>
+</document>

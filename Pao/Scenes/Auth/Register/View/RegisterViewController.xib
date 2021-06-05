@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController" customModule="Pao_DEV" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTextField" destination="ipw-Cn-lYC" id="6zX-3V-OkE"/>
+                <outlet property="fullNameTextField" destination="zph-Ez-Z9Q" id="gT9-Zn-zeL"/>
+                <outlet property="nextButton" destination="TuY-qh-IbE" id="kf5-PV-uK5"/>
+                <outlet property="stackView" destination="4jW-u7-K2n" id="IC5-Cs-Dgm"/>
+                <outlet property="usernameTextField" destination="mkZ-q7-mCw" id="A2e-zj-fBw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="4jW-u7-K2n">
+                    <rect key="frame" x="47" y="126" width="281" height="182"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zph-Ez-Z9Q" customClass="IsaoTextField" customModule="Pao_DEV" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="281" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="84u-TJ-Yan"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" enablesReturnKeyAutomatically="YES"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ipw-Cn-lYC" customClass="IsaoTextField" customModule="Pao_DEV" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="61" width="281" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="jzH-iN-zSS"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress" enablesReturnKeyAutomatically="YES" textContentType="email"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mkZ-q7-mCw" customClass="IsaoTextField" customModule="Pao_DEV" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="122" width="281" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="0I4-DW-17a"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="username"/>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="320" id="BQ9-NQ-5hd"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="PHi-gO-ned">
+                    <rect key="frame" x="268" y="328" width="60" height="25"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuY-qh-IbE" customClass="RoundCornerButton" customModule="Pao_DEV" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="3.5" width="60" height="18"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="xAW-Aw-jcA"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Next" image="rightArrowNav"/>
+                            <state key="disabled" title="Next" image="rightArrowNav"/>
+                            <connections>
+                                <action selector="showPasswordViewController:" destination="-1" eventType="touchUpInside" id="QTE-M7-nHP"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="38E-q9-TGN"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PHi-gO-ned" firstAttribute="trailing" secondItem="4jW-u7-K2n" secondAttribute="trailing" id="2QH-7L-15x"/>
+                <constraint firstItem="4jW-u7-K2n" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LZQ-Rn-p3j"/>
+                <constraint firstItem="PHi-gO-ned" firstAttribute="top" secondItem="4jW-u7-K2n" secondAttribute="bottom" constant="20" id="Uo6-Jf-afv"/>
+                <constraint firstItem="4jW-u7-K2n" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.65:1" priority="750" id="hT1-vL-T9l"/>
+                <constraint firstItem="4jW-u7-K2n" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.75:1" priority="750" id="nHG-pO-6UR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="101" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="rightArrowNav" width="9.5" height="18"/>
+    </resources>
+</document>

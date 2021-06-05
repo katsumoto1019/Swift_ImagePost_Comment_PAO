@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewSpotPreviewViewController" customModule="Pao_DEV" customModuleProvider="target">
+            <connections>
+                <outlet property="carouselContainerView" destination="Kve-OC-jge" id="vMt-51-GLc"/>
+                <outlet property="uploadProgressLabel" destination="ook-ke-Oux" id="dQ2-88-KMy"/>
+                <outlet property="uploadSpotImageView" destination="7Os-zI-u6n" id="lDA-sI-F6t"/>
+                <outlet property="uploadSpotLabel" destination="MD4-pu-lfz" id="3Lj-vw-iiz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kve-OC-jge">
+                    <rect key="frame" x="0.0" y="44" width="375" height="591.66666666666663"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ook-ke-Oux">
+                    <rect key="frame" x="20" y="635.66666666666663" width="335" height="20.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="postNowIcon" translatesAutoresizingMaskIntoConstraints="NO" id="7Os-zI-u6n" customClass="ProfileImageView" customModule="Pao_DEV" customModuleProvider="target">
+                    <rect key="frame" x="156.66666666666666" y="672" width="62" height="62"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="62" id="8Sb-ot-hr8"/>
+                        <constraint firstAttribute="height" constant="62" id="lZ8-bG-Qfl"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload Now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MD4-pu-lfz">
+                    <rect key="frame" x="140.66666666666666" y="742" width="94" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7Os-zI-u6n" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="2cN-lu-QNt"/>
+                <constraint firstItem="MD4-pu-lfz" firstAttribute="top" secondItem="7Os-zI-u6n" secondAttribute="bottom" constant="8" id="6Pi-ho-v7x"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ook-ke-Oux" secondAttribute="trailing" constant="20" id="F26-Pf-1Ty"/>
+                <constraint firstItem="Kve-OC-jge" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Mwb-xj-aCW"/>
+                <constraint firstItem="Kve-OC-jge" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="OOT-2T-ek0"/>
+                <constraint firstItem="MD4-pu-lfz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WZw-VX-uzC"/>
+                <constraint firstItem="ook-ke-Oux" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="fem-H1-rDT"/>
+                <constraint firstItem="7Os-zI-u6n" firstAttribute="top" secondItem="ook-ke-Oux" secondAttribute="bottom" constant="16" id="r7o-z8-lfZ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Kve-OC-jge" secondAttribute="trailing" id="s8L-94-fD9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="MD4-pu-lfz" secondAttribute="bottom" constant="15" id="se0-uk-6Lf"/>
+                <constraint firstItem="ook-ke-Oux" firstAttribute="top" secondItem="Kve-OC-jge" secondAttribute="bottom" id="vMY-J9-gtn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="postNowIcon" width="45" height="47.666667938232422"/>
+    </resources>
+</document>

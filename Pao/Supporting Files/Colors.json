@@ -1,0 +1,42 @@
+{
+    "backgroundOld": "#202020",
+    "navigationBarTintOld": "#272727",
+    "textDarkGray": "#272727",
+    "buttonAccent": "#40C99D",
+    "backgroundDark": "#131313",
+    "accent": "#00ffc0",
+    "gradientTop": "#00ffc0",
+    "gradientBottom": "#01a883",
+    "backgroundHighlight": "#3A3A3A",
+    "navigationBarText": "#ffffff",
+    "textWhite": "#ffffff",
+    "placeholder": "#8e8d8d",
+    "textGray": "#7f7f7f",
+    "textEmptyView": "#B6B6B6",
+    "textLightGray": "#AAAAAA",
+    "redText": "#eb302a",
+    "pulsatingLayer": "#111111",
+    "trackLayer": "#333333",
+    "grayBorder": "#363636",
+    "circleShapeLayer": "#555555",
+    "defaultiOSPlaceholder": "#FFFFE6",
+    "permissionAlertButton": "#acacac",
+    
+    "coachMarksBackground": "#CC 000000",
+    "coachMarksPlaylistsBackground": "#BB 000000",
+    "coachMarksBorderGradientFirst": "#04d29e",
+    "coachMarksBorderGradientSecond": "#028e6e",
+	"alertOVerlayBacoground": "D9 000000",
+
+    "reachabilityMessageView": "#0CA27D",
+
+    "navigationBarTint": "#111111",
+    "background": "#000000",
+    
+    "greenAlertGradinentStart": "#03D5A1",
+    "greenAlertGradinentEnd": "#019671",
+    "reactionTextBackground": "#02a179",
+    
+    "emojiButtonBackground": "#2C2C2C",
+    "emojiButtonSelectedBackground": "#206755",
+}

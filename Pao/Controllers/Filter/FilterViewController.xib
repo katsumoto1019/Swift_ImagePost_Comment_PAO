@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterViewController" customModule="Pao_PROD" customModuleProvider="target">
+            <connections>
+                <outlet property="doneButton" destination="sZq-Zl-Bhp" id="0Tg-Bk-VTx"/>
+                <outlet property="filterLabel" destination="KJR-3J-E1O" id="g49-7U-59z"/>
+                <outlet property="stackView" destination="ZLZ-aD-hpf" id="yQb-2i-IEv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="center" axis="vertical" distribution="equalSpacing" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="mzM-cU-zhj">
+                    <rect key="frame" x="0.0" y="207" width="375" height="253.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Filters:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJR-3J-E1O">
+                            <rect key="frame" x="136" y="0.0" width="103" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="ZLZ-aD-hpf" customClass="MultiSelectButtonStackView" customModule="Pao_PROD" customModuleProvider="target">
+                            <rect key="frame" x="19" y="70.5" width="337.5" height="93"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="93" id="8Jd-tq-uq6"/>
+                                <constraint firstAttribute="width" constant="337.5" id="PpD-Ls-ESo"/>
+                            </constraints>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZq-Zl-Bhp" customClass="GradientButton" customModule="Pao_PROD" customModuleProvider="target">
+                            <rect key="frame" x="142.5" y="213.5" width="90" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="90" id="qWU-rx-Ie1"/>
+                                <constraint firstAttribute="height" constant="40" id="uSS-cQ-P8l"/>
+                            </constraints>
+                            <state key="normal" title="Done"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="topGradientColor">
+                                    <color key="value" red="0.0" green="1" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="bottomGradientColor">
+                                    <color key="value" red="0.0039215686269999999" green="0.6588235294" blue="0.51372549020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="dismissViewController:" destination="-1" eventType="touchUpInside" id="oAi-uJ-f65"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="ZLZ-aD-hpf" firstAttribute="centerX" secondItem="mzM-cU-zhj" secondAttribute="centerX" id="6Yy-XC-cqk"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mzM-cU-zhj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="P8g-9M-Jk4"/>
+                <constraint firstItem="mzM-cU-zhj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="SMc-Vk-Xmc"/>
+                <constraint firstItem="mzM-cU-zhj" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="X7y-NM-LOr"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="144"/>
+        </view>
+    </objects>
+</document>
